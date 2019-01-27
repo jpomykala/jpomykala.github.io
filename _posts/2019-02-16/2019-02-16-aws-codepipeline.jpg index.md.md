@@ -3,6 +3,7 @@ title: CodePipeline - simple continous integration tool
 image: "./aws-codepipeline.jpg"
 excerpt: "CI/CD solution for side projects hosted on AWS. Optional integration with Jenkins."
 category: programming
+published: false
 tags: [software-development, aws]
 ---
 
