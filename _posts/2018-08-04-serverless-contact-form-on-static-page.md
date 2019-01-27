@@ -229,7 +229,7 @@ In this case I setup my endpoint to receive any http method. For working contact
 {% endhighlight %}
 
 
-### Conclusions
+### Conclusion
 
 We can scale this technique to multiple web pages with ease, but this solution in current form has few downsides.
 For now the only one protection against DDoS or some similar attack is rate limiter included in Lambda function.
