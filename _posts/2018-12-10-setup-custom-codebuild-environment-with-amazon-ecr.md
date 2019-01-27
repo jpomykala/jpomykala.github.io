@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Setup custom CodeBuild environment with Amazon ECR"
-image: "./pushing-to-ecr.png"
 categories: [software-development, aws, java]
 ---
 
@@ -68,7 +67,7 @@ docker run java11-codebuild-environemnt:latest
 
 and ensure that maven displays installed version.
 
-![mvn version](docker-run-mvn.png){:class="img-responsive"}
+![mvn version](/assets/2018-12-10/docker-run-mvn.png){:class="img-responsive"}
 
 
 If everything work as expected, we can tag and push our image to ECR service.
@@ -78,7 +77,7 @@ docker tag java11-codebuild-environment:latest <YOUR_ECR_URL>/java11-codebuild-e
 docker push <YOUR_ECR_URL>/java11-codebuild-environment:latest
 {% endhighlight %}
 
-![pushing to ecr](pushing-to-ecr.png)
+![pushing to ecr](/assets/2018-12-10/pushing-to-ecr.png)
 
 Before we start using our container we need to setup proper access policy for CodeBuild service.
 This need to be done using internal ECR policy management (not the standard AWS roles/policies!)
@@ -104,7 +103,7 @@ This need to be done using internal ECR policy management (not the standard AWS 
 }
 {% endhighlight %}
 
-![pushing to ecr](ecr-permissions.png)
+![pushing to ecr](/assets/2018-12-10/ecr-permissions.png)
 
 
 We allow the CodeBuild service to get docker images, download them and check their availability.
@@ -112,7 +111,7 @@ We allow the CodeBuild service to get docker images, download them and check the
 # CodeBuild configuration
 The last step is to configure CodeBuild environment, like bellow.
 
-![pushing to ecr](codebuild-environment.png)
+![pushing to ecr](/assets/2018-12-10/codebuild-environment.png)
 
 And here we go! We can finally use latest Java features and push it to the production right away!
 Next version is scheduled to March 2019, so we will go through this steps again but on `Dockerfile` 
