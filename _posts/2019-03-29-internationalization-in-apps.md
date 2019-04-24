@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Internationalization in any software done right"
+title: "Internationalization in any app done right"
 categories: [software-development, internationalization, i18n, react, software, startup]
 ---
 
