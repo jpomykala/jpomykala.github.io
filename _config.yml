@@ -17,9 +17,13 @@ title: Jakub Pomykała
 description: >- # this means to ignore newlines until "baseurl:"
   Creation over consumption.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jpomykala.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jakub_pomykala
-github_username:  jpomykala
+url: "https://jpomykala.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+header_pages:
+  - reading-list.md
+  - posts.md
+
 
 # Build settings
 markdown: kramdown
