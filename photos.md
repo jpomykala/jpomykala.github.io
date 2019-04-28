@@ -21,13 +21,19 @@ Places where I took these photos are below them.
 
 ![Motorcycle Spain](/assets/photos/motorcycle-spain.jpeg)
 
-Old town, Spain
+Alicante, Spain
+
+---
+
+![Park Güell](/assets/photos/barcelona-park-guell.jpeg)
+
+Park Güell, Barcelona, Spain
 
 ---
 
 ![Train Station](/assets/photos/train-station.jpeg)
 
-Train station, Spain
+Train station, Alicante, Spain
 
 ---
 
@@ -86,7 +92,7 @@ Wang Temple, Karpacz, Poland
 
 ![L'Oceanogràfic](/assets/photos/valencia-oceanografic.jpeg)
 
-L'oceanogràfic, Spain
+L'oceanogràfic, Valencia, Spain
 
 [See on PlaceFlare](https://placeflare.com/place/7307/l-oceanografic)
 
