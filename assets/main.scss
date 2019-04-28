@@ -7,10 +7,33 @@
 $primary-font: 'Open Sans', sans-serif;
 
 
+hr {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 .avatar {
   max-width: 100px;
   max-height: 100px;
   border-radius: 50%;
+}
+
+.post-img-excerpt {
+  max-height: 250px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.post-img-header {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.caption {
+  font-style: italic;
+  text-align: center;
 }
 
 .avatar-lg {

@@ -22,6 +22,7 @@ url: "https://jpomykala.com" # the base hostname & protocol for your site, e.g. 
 
 header_pages:
   - reading-list.md
+  - photos.md
   - posts.md
 
 

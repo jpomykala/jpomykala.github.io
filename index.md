@@ -5,7 +5,8 @@ layout: home
 
 {%- include intro.html -%}
 
-I’m an software developer from Poland 🇵🇱. Full-stack web development is my primary focus, but I also like to dabble with mobile apps, games, and design. Check my projects below.
+I’m a software developer from Poland 🇵🇱. Full-stack web development is my primary focus, but I also like to 
+dabble with design and mobile apps. I like to visit unusual places, [take photos]({{site.url}}/photos), and [write posts]({{site.url}}/photos) about something what I think is unique and useful.
 
 
 ## Projects
@@ -43,11 +44,7 @@ Library for Spring Boot web projects. Fills the thin gap between the framework a
 
 ### [📸 Javagram](https://github.com/jpomykala/javagram-bot)
 
-Project created just for fun, it's a Instagram bot, I do not recommend to use it because it's not allowed to use that kind of software on Instagram but the implementation is cool. Java 11+ and stuff. :) 
-
-### [♟ Chess](https://github.com/jpomykala/Chess-Cpp)
-
-We are playing against the computer. It's not an AI, but there are implemented few strategies used in chess games.
+Project created to test Java 11+ API, I do not recommend to use it because it's not allowed to use that kind of software on Instagram but the implementation is cool. 
 
 
 ## My everyday tools

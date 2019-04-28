@@ -19,6 +19,11 @@ layout: default
           {{ post.title | escape }}
         </a>
       </h3>
+      {%- if post.image -%}
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <img src="{{ post.image }}" class="post-img-excerpt"/>
+      </a>
+      {%- endif -%}
       {%- if site.show_excerpts -%}
       {{ post.excerpt }}
       {%- endif -%}
@@ -26,7 +31,11 @@ layout: default
     {%- endfor -%}
   </ul>
 
-  <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
+  <p class="feed-subscribe">
+    <svg class="svg-icon orange">
+      <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+    </svg>
+    <a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
   {%- endif -%}
 
 </div>

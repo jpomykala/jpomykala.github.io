@@ -4,12 +4,13 @@ title: "Contact form on static page with Amazon Lambda Function"
 categories: [software-development, aws]
 ---
 
-So you probably don't know PHP and Wordpress so you decided to built a static web page or use some static 
+If you are here I assume that you probably don't know PHP nor Wordpress, and so you decided to built a static web page or use some static 
 page generator like Jekyll, Grav or GatsbyJS. Right now your obvious option to provide ability to create a 
-contact from is use a [formspree.io](https://formspree.io) or something similar.
+contact from is using a [formspree.io](https://formspree.io) or something similar. I'm going to show you how to write your own contact form 'backend' in very short time.
  
-**This is not a step by step tutorial**, I'm describing overall architecture with the code (copy-paste ready certification). 
-If you have, hit me on e-mail or write a comment. 😉
+
+Please remember that this is not a step by step tutorial, I'm describing overall architecture with the code (*copy-paste ready* certification). 
+If you have any remarks, write a comment in section below or [create a Github issue](https://github.com/jpomykala/jpomykala.github.io/blob/master/_posts/2018-08-04-serverless-contact-form-on-static-page.md). 😉
 
 ### Requirements
 
@@ -26,13 +27,13 @@ If you have, hit me on e-mail or write a comment. 😉
 
 Same technique I used in many websites, here is one example. 
 
-[https://jpomykala.me/#contact](https://jpomykala.me/#contact) 
+[https://vendingmetrics.com/contact](https://vendingmetrics.com/contact) 
 
 So far I didn't have any issue with this solution.
 
 ### Build environment
 
-If you are fammiliar with used technologies the diagram should be pretty straightforward for you. 
+If you are familiar with used technologies the diagram should be pretty straightforward for you. 
 
 ![aws-lambda-function](/assets/2018-08-04/architecture-diagram.png)
 
@@ -54,7 +55,7 @@ We will start with creating Lambda function and choosing NodeJS 8.1 environment.
 [The full code can be found on GitHub Gist](https://gist.github.com/jpomykala/a3548903e3454f7d65443053ec412b65)
 
 
-# import `aws-sdk`
+###### import `aws-sdk`
 
 When we have prepared environment we can start to implement the function. First important thing is that we need to import `aws-sdk` to use SES and other Amazon services.
 {% highlight javascript %}
@@ -63,7 +64,7 @@ var aws = require("aws-sdk");
 [Link to `aws-sdk` documentation](https://docs.aws.amazon.com/sdk-for-javascript/index.html)
 
 
-# Lambda responses
+###### Lambda responses
 Success and error responses. This part is more important than you think. If we return wrong JSON from lambda function to API Gateway, 
 the client (contact form in this case) will get HTTP 500 status. Code will be invoked and email sent anyway, but it's just a good practise to 
 follow the documentation.
@@ -91,7 +92,7 @@ const errorResponse = {
 {% endhighlight %}
 
 
-# Check is domain allowed
+###### Check is domain allowed
 By using this function we can easily turn on and off e-mail sending from certain domains.
 {% highlight javascript %}
 
@@ -111,9 +112,9 @@ const extractDomain = (emailAddress) => {
 {% endhighlight %}
 
 
-# E-mail message
+###### E-mail message
 
-This is a true streinght of this solution. We are passing whole javascript object from contact form to e-mail formatted
+This is a true strength of this solution. We are passing whole Javascript object from contact form to e-mail formatted
 with `<pre></pre>` tags and `JSON.stringify`. 
 
 {% highlight javascript %}
@@ -138,7 +139,7 @@ const getEmailMessage = (request) => {
 }
 {% endhighlight %}
 
-# Send e-mail by SES
+###### Send e-mail by SES
 The most important part of this function is of course sending email by SES. We create a params with message, 
 subject and [all other options which can be found here.](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SES.html)
 {% highlight javascript %}
@@ -179,14 +180,14 @@ Setting up API Gateway for Lambda functions, should be straightforward. There is
 In this case I setup my endpoint to receive any http method. For working contact form you will need only `http/post` method. 
 ![api-gateway](/assets/2018-08-04/api-gateway.png)
 
-# Things to remember
+###### Things to remember
 - Every time we change something on endpoint configuration we need deploy API again to see changes. `Actions -> Deploy API`
 - Remember about setting up CORS while using API Gateway. `Actions -> Enable CORS`
 
 
 ### 3. Contact form example
 
-# HTML form
+###### HTML form
 {% highlight html %}
 <form action="#" id="callbackForm" class="contact-form">
     <div class="form-group">
@@ -203,7 +204,7 @@ In this case I setup my endpoint to receive any http method. For working contact
 </form>
 {% endhighlight %}
 
-# JavaScript
+###### JavaScript
 {% highlight html %}
 <script>
         $("#callbackForm").submit(function(e) {
