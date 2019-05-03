@@ -29,15 +29,18 @@ First, head to SimpleLocalize.io and [sign up to get an account](https://app.sim
 
 **Open the project and go to *Settings*.** Download configuration properties with the one click on the button *Download CLI Properties*:
 
-![simplelocalize-download-credentials](https://thepracticaldev.s3.amazonaws.com/i/lsdwjx92wt2aqlyaqpok.png)
+![credentials-section.png](../assets/2019-04-28/credentials-section.png)
 
-in downloaded file please add at the end this line `projectType: yahoo/react-intl`  and it should look now like follows:
-![credentials](https://thepracticaldev.s3.amazonaws.com/i/mm7odn6xvepggg0g2ymb.png)
+in downloaded file set `projectType:` property to `yahoo/react-intl`  and it should look now like follows:
+```yaml
+uploadToken: <PROJECT_UPLOAD_TOKEN>
+projectType: yahoo/react-intl
+```
 
 [*Read more about CLI `projectType` property*.](https://simplelocalize.gitbook.io/simplelocalize/supported-libraries) Save the file in your project root directory. Next, run the CLI tool in your project directory using the command line:
 
 ```bash
-curl -sL https://cdn.simplelocalize.io/cli/simplelocalize | bash
+curl -s https://get.simplelocalize.io | bash
 ```
 It will search for the keys in your project directory according to `projectType` defined in the configuration file and send them to the SimpleLocalize cloud where you can easily check how may translations are missing and manage them in one place.
 
