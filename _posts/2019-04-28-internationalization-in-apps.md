@@ -29,7 +29,7 @@ First, head to SimpleLocalize.io and [sign up to get an account](https://app.sim
 
 **Open the project and go to *Settings*.** Download configuration properties with the one click on the button *Download CLI Properties*:
 
-![credentials-section.png](../assets/2019-04-28/credentials-section.png)
+![credentials-section.png](/assets/2019-04-28/credentials-section.png)
 
 in downloaded file set `projectType:` property to `yahoo/react-intl`  and it should look now like follows:
 ```yaml
