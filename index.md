@@ -12,32 +12,32 @@ dabble with design and mobile apps. I like to visit unusual places, [take photos
 ## Projects
 
 ### ![something](/assets/me.jpeg){:class="round"} [To be announced 🤩](https://jpomykala.com)
-** $0 / month **
+**$0 / month**
 
 I found new niche for my new product, stay tuned. First iteration: July 1 2019! 👨‍🚀
 
 ### ![simplelocalize](/assets/images/simplelocalize-logo.png){:class="round"} [SimpleLocalize.io](https://simplelocalize.io)
-** $160 / month and growing **
+**$160 / month and growing**
 
 Collaborative internationalization tool for developers, offers auto-discovering i18n keys in source code , cloud editor and CDN for fetching translated data.
 
 ### ![placeflare](/assets/images/placeflare-logo.png){:class="round"} [PlaceFlare](https://placeflare.com)
-** free / no ads **
+**free / no ads**
 
 Gathering cools places around the world, sorting by distance, handpicked, no adverts, no restaurants, no hotels, no sponsored content. 
 
 ### ![vending-metrics](/assets/images/vendingmetrics-logo.png){:class="round"} [VendingMetrics](https://vendingmetrics.com)
-** $3000 / month and growing **
+**$3000 / month and growing**
 
 Telemetry system for snack and coffee machines. Byte-level craftsmen in Java, super interesting from the software development level.
 
 ### ![where-is-my-bus](/assets/images/where-is-my-bus-logo.png){:class="round"} [Where is my bus?](https://itunes.apple.com/pl/app/gdzie-jest-autobus/id1288955139?l=pl&mt=8)
-** free / no ads **
+**free / no ads**
 
 iOS transportation application for my hometown. I made it for my sister's request because the buses are often late and she didn't know how long she needs to wait.
 
 ### ![true-or-false](/assets/images/true-or-false-logo.png){:class="round"} [True or False](https://play.google.com/store/apps/details?id=pl.evelanblog.prawdaczyfalsz&hl=pl)
-** $200 - $300 / month ($22000 in total since launch) **
+**$200 - $300 / month ($22000 in total since launch)**
 
 The game for Android, where you answer to true/false questions. Supports multiplayer up to 4 player via Google Play Services. Currently game has +5 000 000 downloads. 
 
