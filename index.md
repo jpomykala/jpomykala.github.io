@@ -12,7 +12,7 @@ dabble with design and mobile apps. I like to visit unusual places, [take photos
 ## Projects
 
 ### ![simplelocalize](/assets/images/simplelocalize-logo.png){:class="round"} [SimpleLocalize.io](https://simplelocalize.io)
-**$100+/month and growing**
+**$160+/month and growing**
 
 Collaborative internationalization tool for developers, offers auto-discovering i18n keys in source code , cloud editor and CDN for fetching translated data.
 
