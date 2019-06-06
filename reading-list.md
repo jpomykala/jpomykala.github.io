@@ -10,6 +10,12 @@ The most up-to-date data you will probably find on my [GoodReads account](https:
 Follow me if you like or send me recommendations. 
 
 
+### Currently reading:
+
+- [Company of One](https://www.amazon.com/Company-One-Staying-Small-Business/dp/1328972356) by Paul Jarvis
+- [Domain-Driven Design Distilled](https://www.goodreads.com/book/show/31332222-domain-driven-design-distilled) by Vaughn Vernon
+
+
 ### Completed and liked:
 
 - [High Performance MySQL: Optimization, Backups, and Replication (!!)](https://www.goodreads.com/book/show/18759121-high-performance-mysql)
@@ -25,10 +31,6 @@ Follow me if you like or send me recommendations.
 - [The Art of Project Management](https://www.goodreads.com/book/show/180217.The_Art_of_Project_Management)
 
 
-### Currently reading:
-
-- [Company of One](https://www.amazon.com/Company-One-Staying-Small-Business/dp/1328972356) by Paul Jarvis
-- [Domain-Driven Design Distilled](https://www.goodreads.com/book/show/31332222-domain-driven-design-distilled) by Vaughn Vernon
 
 
 
