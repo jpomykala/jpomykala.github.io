@@ -27,6 +27,7 @@ Follow me if you like or send me recommendations.
 
 ### Currently reading:
 
+- [Company of One](https://www.amazon.com/Company-One-Staying-Small-Business/dp/1328972356) by Paul Jarvis
 - [Domain-Driven Design Distilled](https://www.goodreads.com/book/show/31332222-domain-driven-design-distilled) by Vaughn Vernon
 
 
