@@ -32,7 +32,7 @@ Telemetry system for snack and coffee machines. Byte-level craftsmen in Java, su
 iOS transportation application for my hometown. I made it for my sister's request because the buses are often late and she didn't know how long she needs to wait.
 
 ### ![true-or-false](/assets/images/true-or-false-logo.png){:class="round"} [True or False](https://play.google.com/store/apps/details?id=pl.evelanblog.prawdaczyfalsz&hl=pl)
-**$16000+ in total**
+**$18000+ in total + $200 - $300 / month**
 
 The game for Android, where you answer to true/false questions. Supports multiplayer up to 4 player via Google Play Services. Currently game has +5 000 000 downloads. 
 
