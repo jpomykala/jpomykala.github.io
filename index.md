@@ -11,7 +11,7 @@ dabble with design and mobile apps. I like to visit unusual places, [take photos
 
 ## Projects
 
-### ![something](/assets/images/new-logo.png){:class="round"} [Something new 🤩](https://jpomykala.com)
+### ![something](/assets/images/tba.png){:class="round"} [To be announced 🤩](https://jpomykala.com)
 **$0/month**
 
 I found new niche for my new product, stay tuned. First iteration: July 1 2019! 👨‍🚀
@@ -27,7 +27,7 @@ Collaborative internationalization tool for developers, offers auto-discovering 
 Gathering cools places around the world, sorting by distance, handpicked, no adverts, no restaurants, no hotels, no sponsored content. 
 
 ### ![vending-metrics](/assets/images/vendingmetrics-logo.png){:class="round"} [VendingMetrics](https://vendingmetrics.com)
-**NDA 🤭**
+** $3000 / month and growing **
 
 Telemetry system for snack and coffee machines. Byte-level craftsmen in Java, super interesting from the software development level.
 
