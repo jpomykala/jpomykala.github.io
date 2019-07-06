@@ -11,10 +11,10 @@ dabble with design and mobile apps. I like to visit unusual places, [take photos
 
 ## Projects
 
-### ![something](/assets/me.jpeg){:class="round"} [To be announced 🤩](https://jpomykala.com)
+### ![something](/assets/me.jpeg){:class="round"} [Q4 2019 🤩](https://jpomykala.com)
 **$0 / month**
 
-I found new niche for my new product, stay tuned. First iteration: July 1 2019! 👨‍🚀
+I'm preparing something new! Contact with me if you are selling digital content, and get beta access! Second iteration: September 1 2019! 👨‍🚀
 
 ### ![simplelocalize](/assets/images/simplelocalize-logo.png){:class="round"} [SimpleLocalize.io](https://simplelocalize.io)
 **$160 / month and growing**
