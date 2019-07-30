@@ -6,6 +6,23 @@
 
 $primary-font: 'Open Sans', sans-serif;
 
+img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.post-content{
+  img {
+    display: block;
+    max-height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+
 
 hr {
   margin-bottom: 2rem;
