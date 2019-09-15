@@ -6,7 +6,7 @@ layout: home
 {%- include intro.html -%}
 
 I’m a software developer from Poland 🇵🇱. Full-stack web development is my primary focus, but I also like to 
-dabble with design and mobile apps. I like to visit unusual places, [take photos]({{site.url}}/photos), and [write posts]({{site.url}}/photos) about something what I think is unique and useful.
+dabble with design and mobile apps. I like to visit unusual places, [take photos]({{site.url}}/photos), and [write posts]({{site.url}}/posts) about something what I think is unique and useful.
 
 
 ## Projects
