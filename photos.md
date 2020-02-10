@@ -17,6 +17,10 @@ and if it is possible please add a link to my website. Thanks!
 
 ## My favourite photos
 
+![Motorcycle Spain](/assets/photos/castle-ksiaz-poland.jpeg)
+The largest castle in Silesia. [Castle Książ, Poland](https://placeflare.com/discover/place/89/zamek-ksiaz)
+
+---
 
 ![Motorcycle Spain](/assets/photos/motorcycle-spain.jpeg)
 We were wandering around the old town. [Alicante, Spain](https://www.google.com/maps?client=safari&rls=en&q=alicante+spain&oe=UTF-8&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjM1s298_jhAhXx-ioKHbEABaIQ_AUIDigB)

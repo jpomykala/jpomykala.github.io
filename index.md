@@ -21,7 +21,7 @@ Gathering cools places around the world, sorting by distance, handpicked, no adv
 
 ### ![vending-metrics](/assets/images/vendingmetrics-logo.png){:class="round"} [VendingMetrics](https://vendingmetrics.com)
 
-Telemetry system for snack and coffee machines. Byte-level craftsmen in Java, super interesting from the software development level.
+Telemetry system for snack and coffee machines. Byte-level craftsman in Java :)
 
 ### ![where-is-my-bus](/assets/images/where-is-my-bus-logo.png){:class="round"} [Where is my bus?](https://itunes.apple.com/pl/app/gdzie-jest-autobus/id1288955139?l=pl&mt=8)
 
