@@ -46,7 +46,6 @@ Project created to test Java 11+ API, I do not recommend to use it because it's 
 
 - [IntelliJ Ultimate](https://www.jetbrains.com) - one IDE to rule all the languages
 - [Sketch](https://www.sketch.com) - vector graphics editor
-- [SequelPro](https://www.sequelpro.com) - lightweight MySQL client
 - [Cyberduck](https://cyberduck.io) - file manager for remote services 
 - [Alfred](https://www.alfredapp.com) - improves productivity, supports custom search
 - [1Password](https://1password.com) - it's better than keeping credentials in Note.app
@@ -59,7 +58,6 @@ Project created to test Java 11+ API, I do not recommend to use it because it's 
 
 - [MyMavenRepo](https://mymavenrepo.com) - private Maven repository
 - [Sentry.io](https://sentry.io/) - app monitoring
-- [Paletton](http://paletton.com) - color matching, but seems bit outdated (no SSL)
 - [CodePipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html) - CI/CD, easy to maintain, better than Jenkins for small projects
 - [CodeClimate](https://codeclimate.com) - measuring maintainability and code quality
 - [DockerHub](https://hub.docker.com) - keeping Docker images
