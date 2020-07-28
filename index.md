@@ -4,9 +4,8 @@ layout: home
 ---
 
 {%- include intro.html -%}
-
-I’m a software developer from Poland 🇵🇱. Full-stack web development is my primary focus, but I also like to 
-dabble with design and mobile apps. I like to visit unusual places, [take photos]({{site.url}}/photos), and [write posts]({{site.url}}/posts) about something what I think is unique and useful.
+I'm a software developer, who loves back-end and data visualization on front-end. Interested in software architecture, own SaaS projects and data charting. Passionate about JVM languages and JVM internals. Disappointed with the quality of software written these days, hates long methods and overcomplicated code. 
+Occasionally I [take photos]({{site.url}}/photos), and [write posts]({{site.url}}/posts) about something what I think is unique and useful.
 
 
 ## Projects
