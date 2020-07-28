@@ -5,7 +5,7 @@ layout: home
 
 {%- include intro.html -%}
 I'm a software developer, who loves back-end and *data visualization* on front-end. Interested in software architecture, *own SaaS projects*, and data charting. Passionate about JVM internals, software architecture improvements and *database optimizations*. Disappointed with the quality of software written these days, *hates long methods* and overcomplicated code. 
-Occasionally I [take photos]({{site.url}}/photos), and [write posts]({{site.url}}/posts) about something what I think is unique and useful. Feel free to contact with me.
+Occasionally I [take photos]({{site.url}}/photos), and [write posts]({{site.url}}/posts) about something what I think is unique and useful.
 
 
 ## Projects
@@ -24,15 +24,15 @@ Telemetry system for snack and coffee machines. Byte-level craftsman in Java :)
 
 ### ![where-is-my-bus](/assets/images/where-is-my-bus-logo.png){:class="round"} [Where is my bus?](https://itunes.apple.com/pl/app/gdzie-jest-autobus/id1288955139?l=pl&mt=8)
 
-iOS transportation application for my hometown. I made it for my sister's request because the buses are often late and she didn't know how long she needs to wait.
+iOS transportation application for my hometown. I made it for my sister's request because the buses are often late, and she didn't know how long she needs to wait.
 
 ### ![true-or-false](/assets/images/true-or-false-logo.png){:class="round"} [True or False](https://play.google.com/store/apps/details?id=pl.evelanblog.prawdaczyfalsz&hl=pl)
 
-The game for Android, where you answer to true/false questions. Supports multiplayer up to 4 player via Google Play Services. Currently game has +5 000 000 downloads. 
+The game for Android, where you answer to true/false questions. Supports multiplayer up to 4 players via Google Play Services. Currently, game has +5 000 000 downloads. 
 
 ## Open Source
 
-### [🍃 Spring Higher-Order Components](https://github.com/jpomykala/spring-higher-order-components)
+### [🍃 Spring Higher-Order Components](https://github.com/jpomykala/spring-higher-order-components)gem install bundler jekyll
 
 Library for Spring Boot web projects. Fills the thin gap between the framework and common web application features like e-mail sending, S3 uploading, request logging, rate limiter etc.
 
@@ -42,8 +42,7 @@ Command Line Interface created for my SaaS which is [SimpleLocalize.io](https://
 
 ### [📸 Javagram](https://github.com/jpomykala/javagram-bot)
 
-Project created to test Java 11+ API, I do not recommend to use it because it's not allowed to use that kind of software on Instagram but the implementation is cool. 
-
+Project created to test Java 11+ API, I do not recommend using it because it's not allowed to use that kind of software on Instagram but the implementation is cool. 
 
 ## My everyday tools
 
@@ -65,4 +64,4 @@ Project created to test Java 11+ API, I do not recommend to use it because it's 
 - [CodeClimate](https://codeclimate.com) - measuring maintainability and code quality
 - [DockerHub](https://hub.docker.com) - keeping Docker images
 
-Know better alternatives? Let me know [@jakub_pomykala](https://twitter.com/jakub_pomykala)
+Know better alternatives? Let me know, [@jakub_pomykala](https://twitter.com/jakub_pomykala)

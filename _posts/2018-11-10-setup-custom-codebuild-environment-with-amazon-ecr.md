@@ -17,7 +17,7 @@ our own build environment which will support Java 11 and Java 12 in future right
 - Amazon ECR
 
 We are going to need nothing special for this. AWS CLI with AWS account obliviously. Installed docker on 
-our local machine to build image and some basic knowledge how docker works and how proper Dockerfile should looks like.
+our local machine to build image, and some basic knowledge how docker works and how proper Dockerfile should looks like.
 Basically we will create build environment which will be used during CodeBuild process using docker images.
 After that we will push created image to Amazon ECR. ECR is container registry like docker hub but managed by Amazon.
 Eventually we will use our image as build environment. 
