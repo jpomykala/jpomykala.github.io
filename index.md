@@ -36,6 +36,10 @@ The game for Android, where you answer to true/false questions. Supports multipl
 
 Library for Spring Boot web projects. Fills the thin gap between the framework and common web application features like e-mail sending, S3 uploading, request logging, rate limiter etc.
 
+### [⚡️ SimpleLocalize-CLI](https://github.com/simplelocalize/simplelocalize-cli)
+
+Command Line Interface created for my SaaS which is [SimpleLocalize.io](https://simplelocalize.io). It's great because it uses GraalVM to build native executables and in the same time it allows me to write code in Java 11.
+
 ### [📸 Javagram](https://github.com/jpomykala/javagram-bot)
 
 Project created to test Java 11+ API, I do not recommend to use it because it's not allowed to use that kind of software on Instagram but the implementation is cool. 
