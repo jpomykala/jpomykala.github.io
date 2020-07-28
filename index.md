@@ -4,7 +4,7 @@ layout: home
 ---
 
 {%- include intro.html -%}
-I'm a software developer, who loves back-end and data visualization on front-end. Interested in software architecture, own SaaS projects, and data charting. Passionate about JVM internals, software architecture improvements and database optimizations. Disappointed with the quality of software written these days, hates long methods and overcomplicated code. 
+I'm a software developer, who loves back-end and *data visualization* on front-end. Interested in software architecture, *own SaaS projects*, and data charting. Passionate about JVM internals, software architecture improvements and *database optimizations*. Disappointed with the quality of software written these days, *hates long methods* and overcomplicated code. 
 Occasionally I [take photos]({{site.url}}/photos), and [write posts]({{site.url}}/posts) about something what I think is unique and useful. Feel free to contact with me.
 
 
