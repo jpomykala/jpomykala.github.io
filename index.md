@@ -32,7 +32,7 @@ The game for Android, where you answer to true/false questions. Supports multipl
 
 ## Open Source
 
-### [🍃 Spring Higher-Order Components](https://github.com/jpomykala/spring-higher-order-components)gem install bundler jekyll
+### [🍃 Spring Higher-Order Components](https://github.com/jpomykala/spring-higher-order-components)
 
 Library for Spring Boot web projects. Fills the thin gap between the framework and common web application features like e-mail sending, S3 uploading, request logging, rate limiter etc.
 
