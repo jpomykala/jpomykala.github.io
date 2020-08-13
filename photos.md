@@ -17,6 +17,11 @@ and if it is possible please add a link to my website. Thanks!
 
 ## My favourite photos
 
+![Road somewhere in West Pomeranian region](/assets/photos/west-pomeranian-field-drone.jpeg)
+Drone photo taken 500m above the ground, that little black dot is my car. Somewhere in West Pomeranian region
+
+---
+
 ![Motorcycle Spain](/assets/photos/castle-ksiaz-poland.jpeg)
 The largest castle in Silesia. [Castle Książ, Poland](https://placeflare.com/discover/place/89/zamek-ksiaz)
 
