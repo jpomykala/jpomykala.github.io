@@ -17,8 +17,8 @@ and if it is possible please add a link to my website. Thanks!
 
 ## My favourite photos
 
-![Road somewhere in West Pomeranian region](/assets/photos/west-pomeranian-field-drone.jpeg)
-Drone photo taken 500m above the ground, that little black dot is my car. Somewhere in West Pomeranian region
+![Road somewhere in West Pomerania province](/assets/photos/west-pomeranian-field-drone.jpeg)
+Drone photo taken 500m above the ground, that little black dot is my car. Somewhere in West Pomerania province
 
 ---
 
