@@ -12,15 +12,15 @@ Occasionally I [take photos]({{site.url}}/photos), and [write posts]({{site.url}
 
 ### ![simplelocalize](/assets/images/simplelocalize-logo.png){:class="round"} [SimpleLocalize.io](https://simplelocalize.io)
 
-Collaborative internationalization tool for developers, offers auto-discovering i18n keys in source code , cloud editor and CDN for fetching translated data.
+Translation management platform, where you can keep your i18n content. Offers CLI for finding i18n terms from your project files, cloud editor and CDN for hosting translation data. Java 11+ & GraalVM
 
 ### ![placeflare](/assets/images/placeflare-logo.png){:class="round"} [PlaceFlare](https://placeflare.com)
 
-Gathering cools places around the world, sorting by distance, handpicked, no adverts, no restaurants, no hotels, no sponsored content. 
+Gathering cools places around the world, sorting by distance (Apache Lucene), handpicked, no adverts, no restaurants, no hotels, no sponsored content. 
 
 ### ![vending-metrics](/assets/images/vendingmetrics-logo.png){:class="round"} [VendingMetrics](https://vendingmetrics.com)
 
-Telemetry system for snack and coffee machines. Byte-level craftsman in Java :)
+Telemetry system for snack and coffee machines. Byte-level craftsman in Java 11+ 
 
 ### ![where-is-my-bus](/assets/images/where-is-my-bus-logo.png){:class="round"} [Where is my bus?](https://itunes.apple.com/pl/app/gdzie-jest-autobus/id1288955139?l=pl&mt=8)
 
@@ -46,17 +46,16 @@ Project created to test Java 11+ API, I do not recommend using it because it's n
 
 ## My everyday tools
 
-- [IntelliJ Ultimate](https://www.jetbrains.com) - one IDE to rule all the languages
+- [IntelliJ Ultimate](https://www.jetbrains.com) - favourite IDE
 - [Sketch](https://www.sketch.com) - vector graphics editor
 - [Cyberduck](https://cyberduck.io) - file manager for remote services 
-- [Alfred](https://www.alfredapp.com) - improves productivity, supports custom search
-- [1Password](https://1password.com) - it's better than keeping credentials in Note.app
+- [Alfred](https://www.alfredapp.com) - improves productivity
+- [1Password](https://1password.com) - it's better than keeping your credentials in Note.app
 - [Magnet](https://magnet.crowdcafe.com) (cool website!) - must have for 4k display owners
-- [Macbook Pro 13 TB](https://www.apple.com/macbook-pro/) - for portable working
-- [Dell U3415W](https://www.dell.com/en-us/shop/accessories/apd/210-adtr) - for stationary working
+- [Macbook Pro 13 TB + Dell U3415W](https://www.apple.com/macbook-pro/) - workstation
 
 
-## In my bookmarks
+## Cool services from my bookmarks
 
 - [MyMavenRepo](https://mymavenrepo.com) - private Maven repository
 - [Sentry.io](https://sentry.io/) - app monitoring
