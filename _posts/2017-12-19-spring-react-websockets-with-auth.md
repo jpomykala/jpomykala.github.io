@@ -157,7 +157,7 @@ class Dashboard extends React.Component<Props, State> {
 ## Conclusions
 
 And we are done. Below is an example how it looks like in my application. 
-In terminal we see logs from the server for test demo company with few vending machines. 
+In terminal, we see logs from the server for test demo company with few vending machines. 
 Every time machine sold a product data are send to our server and then transaction is 
 validated and eventualy inserted to database. In the end I'm sending event 
 ``UpdateDashboardRequestEvent`` to update dashboard.
