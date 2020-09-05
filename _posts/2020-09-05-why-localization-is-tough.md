@@ -3,10 +3,9 @@ layout: post
 title: Why handling i18n in software projects is tough
 categories: [i18n, localization, intl, internationalization]
 ---
+Have you ever thinking about adding more languages to your application? Does it make sens to do it? Will you get more customers? Or will it make your existing customers happier? Or maybe you would like to look more professional than your competitors? Let's make it clear - yes, your app will look much more profesional if you will give your clients more languages to choose besides English which is language of the Internet by default. Every big tech company provides more than English language in their apps. 
 
 ![i18n intl post header](https://dev-to-uploads.s3.amazonaws.com/i/xp9qorzsqw4cblsg37l4.jpg)
-
-Have you ever thinking about adding more languages to your application? Does it make sens to do it? Will you get more customers? Or will it make your existing customers happier? Or maybe you would like to look more professional than your competitors? Let's make it clear - yes, your app will look much more profesional if you will give your clients more languages to choose besides English which is language of the Internet by default. Every big tech company provides more than English language in their apps. 
 
 # Background history
 
@@ -17,7 +16,7 @@ When I was creating my first big B2C web application I knew I will need to suppo
 - Italian, because we planned to add places from Italy
 - French, because my girlfriend would like to learn this language 👩‍🎨
 
-I started working on the coding side and my girlfriend was taking care about everything else including translations. We noticed very quickly that i18n... is though... 
+I started working on the coding side, and my girlfriend was taking care about everything else including translations. We noticed very quickly that i18n... is though... 
 
 ![i18n is though](https://dev-to-uploads.s3.amazonaws.com/i/68b2thkwc251ymkeqo3c.jpg)
 
