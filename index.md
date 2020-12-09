@@ -18,10 +18,6 @@ Translation management platform, where you can keep your i18n content. Offers CL
 
 Gathering cools places around the world, sorting by distance (Apache Lucene), handpicked, no adverts, no restaurants, no hotels, no sponsored content. 
 
-### ![vending-metrics](/assets/images/vendingmetrics-logo.png){:class="round"} [VendingMetrics](https://vendingmetrics.com)
-
-Telemetry system for snack and coffee machines. Byte-level craftsman in Java 11+ 
-
 ### ![where-is-my-bus](/assets/images/where-is-my-bus-logo.png){:class="round"} [Where is my bus?](https://itunes.apple.com/pl/app/gdzie-jest-autobus/id1288955139?l=pl&mt=8)
 
 iOS transportation application for my hometown. I made it for my sister's request because the buses are often late, and she didn't know how long she needs to wait.
