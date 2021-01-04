@@ -11,14 +11,14 @@ layout: default
   {%- if site.posts.size > 0 -%}
   <ul class="post-list">
     {%- for post in site.posts -%}
-    <li class="mb-5">
+    <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3 class="mt-0">
+      <h2 class="mt-0">
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
-      </h3>
+      </h2>
       {%- if post.image -%}
       <a class="post-link" href="{{ post.url | relative_url }}">
         <img src="{{ post.image }}" class="post-img-excerpt"/>
@@ -28,6 +28,7 @@ layout: default
       {{ post.excerpt }}
       {%- endif -%}
     </li>
+    <hr/>
     {%- endfor -%}
   </ul>
 

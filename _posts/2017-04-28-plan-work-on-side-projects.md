@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to plan your work on a side project. My Experience.
+title: 👨‍💻 How to plan your work on a side project
 categories: [software-development, software, startup]
 ---
 

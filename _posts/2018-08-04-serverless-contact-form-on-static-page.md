@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Contact form on static page with Amazon Lambda Function"
+title: 📨 Contact form on static page with Amazon Lambda Function
 categories: [software-development, aws]
 ---
 

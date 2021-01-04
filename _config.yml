@@ -34,9 +34,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-disqus:
-  shortname: jpomykala
-
 exclude:
   - jpomykala-blog.iml
   - Gemfile

@@ -1,5 +1,4 @@
 ---
-
 layout: home
 ---
 
@@ -7,6 +6,7 @@ layout: home
 I'm a software developer, who loves back-end and __data visualization__ on front-end. Interested in software architecture, __own SaaS projects__, and data charting. Passionate about JVM internals. Disappointed with the quality of software written these days, **hates long methods and overcomplicated code**. 
 Occasionally I [take photos]({{site.url}}/photos), and [write posts]({{site.url}}/posts) about something what I think is unique and useful. I like to play in Sketch and create UI designs even though I'm color blind. 😎
 
+---
 
 ## Projects
 
@@ -18,6 +18,10 @@ Translation management platform, where you can keep your i18n content. Offers CL
 
 Gathering cools places around the world, sorting by distance (Apache Lucene), handpicked, no adverts, no restaurants, no hotels, no sponsored content. 
 
+### ![vending-metrics](/assets/images/vendingmetrics-logo.png){:class="round"} [VendingMetrics](https://vendingmetrics.com)
+
+Telemetry system for snack and coffee machines. Byte-level craftsman in Java 11+ 
+
 ### ![where-is-my-bus](/assets/images/where-is-my-bus-logo.png){:class="round"} [Where is my bus?](https://itunes.apple.com/pl/app/gdzie-jest-autobus/id1288955139?l=pl&mt=8)
 
 iOS transportation application for my hometown. I made it for my sister's request because the buses are often late, and she didn't know how long she needs to wait.
@@ -25,6 +29,8 @@ iOS transportation application for my hometown. I made it for my sister's reques
 ### ![true-or-false](/assets/images/true-or-false-logo.png){:class="round"} [True or False](https://play.google.com/store/apps/details?id=pl.evelanblog.prawdaczyfalsz&hl=pl)
 
 The game for Android, where you answer to true/false questions. Supports multiplayer up to 4 players via Google Play Services. Currently, game has +5 000 000 downloads. 
+
+---
 
 ## Open Source
 
@@ -40,23 +46,11 @@ Command Line Interface created for my SaaS which is [SimpleLocalize.io](https://
 
 Project created to test Java 11+ API, I do not recommend using it because it's not allowed to use that kind of software on Instagram but the implementation is cool. 
 
-## My everyday tools
+---
 
-- [IntelliJ Ultimate](https://www.jetbrains.com) - favourite IDE
-- [Sketch](https://www.sketch.com) - vector graphics editor
-- [Cyberduck](https://cyberduck.io) - file manager for remote services 
-- [Alfred](https://www.alfredapp.com) - improves productivity
-- [1Password](https://1password.com) - it's better than keeping your credentials in Note.app
-- [Magnet](https://magnet.crowdcafe.com) (cool website!) - must have for 4k display owners
-- [Macbook Pro 13 TB + Dell U3415W](https://www.apple.com/macbook-pro/) - workstation
-
-
-## Cool services from my bookmarks
+## Cool services and apps worth paying
 
 - [MyMavenRepo](https://mymavenrepo.com) - private Maven repository
-- [Sentry.io](https://sentry.io/) - app monitoring
-- [CodePipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html) - CI/CD, easy to maintain, better than Jenkins for small projects
 - [CodeClimate](https://codeclimate.com) - measuring maintainability and code quality
-- [DockerHub](https://hub.docker.com) - keeping Docker images
-
-Know better alternatives? Let me know, [@jakub_pomykala](https://twitter.com/jakub_pomykala)
+- [Alfred](https://www.alfredapp.com) - improves productivity
+- [Magnet](https://magnet.crowdcafe.com) (cool website!) - must have for 4k display owners

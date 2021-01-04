@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Setup custom CodeBuild environment with Amazon ECR"
+title: ☁️ Setup custom CodeBuild environment with Amazon ECR
 categories: [software-development, aws, java]
 ---
 
 Since faster Java development by Oracle, every tool we use these days 
 need to follow up for every Java release or just support only LTS versions like Amazon.
+
 CodeBuild is AWS-hosted tool for building software applications and 3 months after stable 
 Java 11 release still it does not support anything newer than Java 9. Time is up, now we will build 
 our own build environment which will support Java 11 and Java 12 in future right after stable release.

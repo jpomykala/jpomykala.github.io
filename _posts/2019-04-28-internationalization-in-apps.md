@@ -1,10 +1,12 @@
 ---
 layout: post
-title: Internationalization tool for yahoo/react-intl
+title: 🤖 Internationalization tool for yahoo/react-intl
 categories: [software-development, internationalization, i18n, react, software, startup]
 ---
 
-Are you struggling with keeping your app translations up to date and your dreams are filled with empty keys to translate? No worries, we know that feeling very well. To make the whole localisation process easier, we created a simple and effective solution which will improve the quality of translations and help you keep them in track! 
+Are you struggling with keeping your app translations up to date, and your dreams are filled with empty keys to translate? No worries, we know that feeling very well. To make the whole localisation process easier, we created a simple and effective solution which will improve the quality of translations and help you keep them in the track!
+
+> This blog post is outdated. Please head to [SimpleLocalize Blog](https://simplelocalize.io/blog/) to check out the most recent blog posts about [React Localization](https://simplelocalize.io/tag/react-localization/). 
 
 ![cli](https://thepracticaldev.s3.amazonaws.com/i/8stvdc832sfg94vu1cuv.jpeg)
 
@@ -33,7 +35,7 @@ First, head to SimpleLocalize.io and [sign up to get an account](https://app.sim
 
 in downloaded file set `projectType:` property to `yahoo/react-intl`  and it should look now like follows:
 ```yaml
-uploadToken: <PROJECT_UPLOAD_TOKEN>
+apiKey: <PROJECT_UPLOAD_TOKEN>
 projectType: yahoo/react-intl
 ```
 

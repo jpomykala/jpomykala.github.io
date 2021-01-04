@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Authenticated websocket connection with Spring Boot and ReactJS
+title: 🔐 Authenticated websocket connection with Spring Boot and ReactJS
 categories: [java, javascript, software-development, spring-framework]
 ---
 

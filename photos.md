@@ -14,8 +14,9 @@ and if it is possible please add a link to my website. Thanks!
 
 ![my-setup](/assets/photos/setup.jpg)
 
+---
 
-## My favourite photos
+## My favourites
 
 ![Road somewhere in West Pomerania province](/assets/photos/west-pomeranian-field-drone.jpeg)
 Drone photo taken 500m above the ground, that little black dot is my car. Somewhere in West Pomerania province
