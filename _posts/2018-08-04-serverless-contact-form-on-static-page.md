@@ -2,26 +2,28 @@
 layout: post
 title: 📨 Contact form on static page with Amazon Lambda Function
 categories: [software-development, aws]
+image: /assets/lambda.png
 ---
 
 If you are here I assume that you probably don't know PHP nor Wordpress, and so you decided to built a static web page or use some static 
 page generator like Jekyll, Grav or GatsbyJS. Right now your obvious option to provide ability to create a 
 contact from is using a [formspree.io](https://formspree.io) or something similar. I'm going to show you how to write your own contact form 'backend' in very short time.
- 
+
+![lambda](/assets/2018-08-04/lambda.png) 
 
 Please remember that this is not a step by step tutorial, I'm describing overall architecture with the code (*copy-paste ready* certification). 
 If you have any remarks, write a comment in section below or [create a Github issue](https://github.com/jpomykala/jpomykala.github.io/blob/master/_posts/2018-08-04-serverless-contact-form-on-static-page.md). 😉
 
 ### Requirements
 
-- minimal knowledge about Amazon Web Services
+- minimal knowledge about [Amazon Web Services](https://aws.amazon.com)
 - basic JavaScript skills
 
 ### Used technologies
 
-- Amazon Lambda
-- Amazon SES
-- Amazon API Gateway
+- [Amazon Lambda](https://aws.amazon.com/lambda/)
+- [Amazon SES](https://aws.amazon.com/ses/)
+- [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
 
 ### Demo
 

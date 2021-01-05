@@ -2,10 +2,13 @@
 layout: post
 title: 🔐 Authenticated websocket connection with Spring Boot and ReactJS
 categories: [java, javascript, software-development, spring-framework]
+image: /assets/2017-12-19/spring-react.jpg
 ---
 
 Websockets are an easy way to update data on clients side without making request to server where there is no new data. 
 It gives "wow effect" for clients and lower server costs for you.
+
+![spring boot react websocket connection](/assets/2017-12-19/spring-react.jpg)
 
 ## Server side - Spring Framework
 We will start from adding proper dependency in `pom.xml` on backend side. In my case it latest stable version was `2.0.2.RELEASE`.

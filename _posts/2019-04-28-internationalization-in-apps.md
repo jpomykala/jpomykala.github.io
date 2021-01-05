@@ -2,6 +2,7 @@
 layout: post
 title: 🤖 Internationalization tool for yahoo/react-intl
 categories: [software-development, internationalization, i18n, react, software, startup]
+image: https://thepracticaldev.s3.amazonaws.com/i/8stvdc832sfg94vu1cuv.jpeg
 ---
 
 Are you struggling with keeping your app translations up to date, and your dreams are filled with empty keys to translate? No worries, we know that feeling very well. To make the whole localisation process easier, we created a simple and effective solution which will improve the quality of translations and help you keep them in the track!
@@ -35,7 +36,7 @@ First, head to SimpleLocalize.io and [sign up to get an account](https://app.sim
 
 in downloaded file set `projectType:` property to `yahoo/react-intl`  and it should look now like follows:
 ```yaml
-apiKey: <PROJECT_UPLOAD_TOKEN>
+apiKey: <PROJECT_API_KEY>
 projectType: yahoo/react-intl
 ```
 
@@ -56,9 +57,9 @@ Add translations and publish changes to check how the keys are updated in your p
 
 Now you can fetch translations using url like follows:
 
-[https://cdn.simplelocalize.io/:projectToken/_latest/:languageKey](https://app.gitbook.com/@simplelocalize/s/simplelocalize/api/generic-cdn)
+[https://cdn.simplelocalize.io/:projectToken/_latest/:languageKey](https://simplelocalize.io/docs/api/read-translations/)
 
-or use [`react-intl-simplelocalize` library](https://simplelocalize.gitbook.io/simplelocalize/integrations/reactjs-integration) for ReactJS applications.
+or use [`react-intl-simplelocalize` library](https://github.com/simplelocalize/react-intl-simplelocalize) for ReactJS applications.
 
 ![project-list](https://thepracticaldev.s3.amazonaws.com/i/fr5kjtvxd1ftr45188ys.png)
 

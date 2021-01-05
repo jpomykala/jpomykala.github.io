@@ -19,11 +19,6 @@ layout: default
           {{ post.title | escape }}
         </a>
       </h2>
-      {%- if post.image -%}
-      <a class="post-link" href="{{ post.url | relative_url }}">
-        <img src="{{ post.image }}" class="post-img-excerpt"/>
-      </a>
-      {%- endif -%}
       {%- if site.show_excerpts -%}
       {{ post.excerpt }}
       {%- endif -%}

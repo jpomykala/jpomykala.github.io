@@ -2,6 +2,7 @@
 layout: post
 title: ☁️ Setup custom CodeBuild environment with Amazon ECR
 categories: [software-development, aws, java]
+image: /assets/2018-11-10/codebuild-environment.png
 ---
 
 Since faster Java development by Oracle, every tool we use these days 

@@ -3,6 +3,7 @@ layout: post
 title: 🌍 Why handling i18n in software projects is tough
 categories: [i18n, localization, intl, internationalization]
 canonical_url: https://simplelocalize.io/blog/posts/yahoo-react-intl/
+image: https://dev-to-uploads.s3.amazonaws.com/i/xp9qorzsqw4cblsg37l4.jpg
 ---
 Have you ever thinking about adding more languages to your application? Does it make sens to do it? Will you get more customers? Or will it make your existing customers happier? Or maybe you would like to look more professional than your competitors? 
 

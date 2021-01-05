@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "📢 Reviewing source code of top 1 app"
-tags: [androi]
+tags: [android]
 ---
 
 
