@@ -112,12 +112,17 @@ h2 {
   font-size: 1.5rem;
   font-weight: 600;
   color: rgb(60, 67, 74);
+
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
   font-size: 1.1rem;
   font-weight: 600;
   color: rgb(38, 42, 48);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 
   a {
     font-size: 1.1rem;
@@ -191,8 +196,8 @@ article {
   }
 }
 
-.footer {
-  background: #f7f7f7;
+footer {
+  background: #f5fbff !important;
   opacity: 1;
   text-align: center;
   line-height: 2;

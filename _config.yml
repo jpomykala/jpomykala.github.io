@@ -14,12 +14,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jakub Pomykała
-description: >- # this means to ignore newlines until "baseurl:"
-  Creation over consumption.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jpomykala.com" # the base hostname & protocol for your site, e.g. http://example.com
-
-
+tagline: Creation over consumption
+description: Creation over consumption
+logo: "/assets/me-2019.jpeg"
+baseurl: ""
+url: "https://jpomykala.com"
+twitter:
+  username: jakub_pomykala
+  card: summary
+social:
+  name: Jakub Pomykała
+  links:
+    - https://twitter.com/jakub_pomykala
+    - https://www.facebook.com/jpomykala94/
+    - https://www.linkedin.com/in/jakubpomykala/
+    - https://github.com/jpomykala
+    - https://www.instagram.com/jpomykala/
 header_pages:
   - reading-list.md
   - photos.md

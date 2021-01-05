@@ -39,7 +39,7 @@ apiKey: <PROJECT_UPLOAD_TOKEN>
 projectType: yahoo/react-intl
 ```
 
-[*Read more about CLI `projectType` property*.](https://simplelocalize.gitbook.io/simplelocalize/supported-libraries) Save the file in your project root directory. Next, run the CLI tool in your project directory using the command line:
+[*Read more about CLI `projectType` property*.](https://simplelocalize.io/docs/cli/get-started/) Save the file in your project root directory. Next, run the CLI tool in your project directory using the command line:
 
 ```bash
 curl -s https://get.simplelocalize.io | bash
