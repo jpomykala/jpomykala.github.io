@@ -66,6 +66,6 @@ or use [`react-intl-simplelocalize` library](https://github.com/simplelocalize/r
 # Ready to start?
 
 Give it a try and test the new internationalisation tool we have created. It is designed to help you to keep all translations up to date, easily manage new keys and translations changes and work on multiple project at the same time, in one place. Integrate you web or mobile app with SimpleLocalize and work with your clients efficiently without Excel spreadsheets and translations files, instead use the clean and user-friendly interface of SimpleLocalize and control the i18n process in much pleasant way. 
-[Create account, no credit card required!](https://app.simplelocalize.io/register)
+[Create account, no credit card required!](https://simplelocalize.io)
 
 
