@@ -19,9 +19,10 @@ layout: default
           {{ post.title | escape }}
         </a>
       </h2>
-      {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
-      {%- endif -%}
+      <div class="use-dashed-links">{%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+        {%- endif -%}
+      </div>
     </li>
     <hr/>
     {%- endfor -%}

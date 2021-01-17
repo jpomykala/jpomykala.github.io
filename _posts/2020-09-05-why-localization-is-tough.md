@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 🌍 Why handling i18n in software projects is tough
-categories: [i18n, localization, intl, internationalization]
+tags: [i18n, localization, intl, internationalization]
 canonical_url: https://simplelocalize.io/blog/posts/yahoo-react-intl/
 image: https://dev-to-uploads.s3.amazonaws.com/i/xp9qorzsqw4cblsg37l4.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 🔐 Authenticated websocket connection with Spring Boot and ReactJS
-categories: [java, javascript, software-development, spring-framework]
+tags: [java, javascript, software-development, spring-framework]
 image: /assets/2017-12-19/spring-react.jpg
 ---
 

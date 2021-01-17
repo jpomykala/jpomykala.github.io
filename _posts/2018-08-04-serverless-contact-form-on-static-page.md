@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 📨 Contact form on static page with Amazon Lambda Function
-categories: [software-development, aws]
+tags: [software-development, aws]
 image: /assets/lambda.png
 ---
 
