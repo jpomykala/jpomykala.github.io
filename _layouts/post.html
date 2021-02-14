@@ -31,8 +31,25 @@ layout: default
   </div>
 
 
+
+
   <div>
     👋 Would you like to add something? Ping me on Twitter <a href="https://twitter.com/jakub_pomykala" target="_blank">@jakub_pomykala</a>
+  </div>
+
+  <div>
+    <h3>Checkout also</h3>
+    {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
+    {% for post in posts %}
+    <div class="d-flex">
+      <h5 class="mt-0">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </h5>
+    </div>
+
+    {% endfor %}
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
