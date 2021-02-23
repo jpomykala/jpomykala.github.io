@@ -34,8 +34,8 @@ Creating an e-mail template is the worst pain in the modern software development
 
 ![mjml template creation](/assets/2021-02-23/mjml-code.png)
 
-I know a tool called for e-mail templates. [MJML](https://mjml.io) is a super simple and easy to use framework for e-mail template creation. It's based on React ☺️ and generate e-mail templates
-works on almost all kind of devices and e-mails programs. Created e-mail templates looks very good also on mobiles. 📱
+I know a tool called for e-mail templates. [MJML](https://mjml.io) is a super simple and easy to use framework for e-mail template creation. It's based on React ☺️ and generated e-mail templates
+works on almost all kind of devices and e-mail programs. Created e-mail template looks good also on mobiles. 📱
 
 I made a very simple template with [mjml](https://mjml.io).
 
