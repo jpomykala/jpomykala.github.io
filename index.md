@@ -36,6 +36,11 @@ Library for Spring Boot web projects. Fills the thin gap between the framework a
 
 Command Line Interface created for [SimpleLocalize.io](https://simplelocalize.io). It's great because it uses GraalVM to build native executables and in the same time it allows me to write code in Java 11. CLI is ready for enterprise usage. Code is open sourced and CLI is offered on MIT licensee.
 
+### [🌍 awesome-i18n](https://github.com/jpomykala/awesome-i18n)
+
+List of awesome libraries, articles and community tips for web localization and internationalization. Hit the star button
+on this repository and add your resources. You will be really shocked how many **libraries for react localization** are out there!
+
 ### [📸 Javagram](https://github.com/jpomykala/javagram-bot)
 
 Project created to test Java 11+ API, I do not recommend using it because it's not allowed to use that kind of software on Instagram but the implementation is cool. 
