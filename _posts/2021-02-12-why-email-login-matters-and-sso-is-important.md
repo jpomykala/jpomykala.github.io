@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "💼️ Why it's a good idea to keep e-mail registration in 2021"
-tags: [communication, software, saas]
+tags: [java, startup, devlog]
 ---
 
 When I started working on [my app for translation management](https://simplelocalize.io) in 2018, I knew it would be good to support single sign in option (SSO) with GitHub.

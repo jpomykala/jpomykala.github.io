@@ -13,7 +13,15 @@ layout: default
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <span class="post-meta">
+        {{ post.date | date: date_format }}
+        <span class="post-meta mx-1">•</span>
+        {% for tag in post.tags %}
+
+        <span class="post-meta">{{ tag }}</span>
+      {%- if forloop.last == false %}, {% endif -%}
+      {% endfor %}
+      </span>
       <h2 class="mt-0">
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}

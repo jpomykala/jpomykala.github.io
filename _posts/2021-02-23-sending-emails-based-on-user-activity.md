@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "🌱 Sending e-mails based on user activity"
-tags: ['marketing', 'service', 'email', 'trial users']
+tags: ['marketing', 'startup', 'customer base', 'devlog']
 ---
 
 Okay, it's time to introduce user activity mailing! I was always sceptical about sending SPAM to trial users. Recently,

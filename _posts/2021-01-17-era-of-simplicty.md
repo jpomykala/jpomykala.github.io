@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "☀️ Era of simplicity: Renascence of Jekyll"
-tags: [communication, software, design]
+tags: [jekyll, design, gatsbyjs, javascript]
 ---
 
 Do you know that feeling when you are adjusting blog CSS instead of writing posts? I spent countless hours on optimizing landing pages for [my projects](https://jpomykala.com/#projects), and [my personal blog](https://jpomykala.com) using GatsbyJS. 

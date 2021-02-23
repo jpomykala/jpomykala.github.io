@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 🤖 Internationalization tool for yahoo/react-intl
-tags: [software-development, internationalization, i18n, react, software, startup]
+tags: [internationalization, i18n, react localization, react-intl, formatjs]
 image: https://thepracticaldev.s3.amazonaws.com/i/8stvdc832sfg94vu1cuv.jpeg
 ---
 

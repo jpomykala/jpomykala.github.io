@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "📢 Startup advertising: Stick with a bubble"
-tags: [communication, advertising, facebook, bubble]
+tags: [seo, marketing, startup]
 ---
 
 [I work as a software developer for more than 7 years now](https://twitter.com/jakub_pomykala). For that time I spent many years in companies which were struggling with 

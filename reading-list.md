@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reading list
+title: Books
 permalink: /reading-list/
 ---
 
