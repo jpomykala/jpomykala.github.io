@@ -31,14 +31,12 @@ layout: default
   </div>
 
 
-
-
   <div>
-    👋 Would you like to add something? Ping me on Twitter <a href="https://twitter.com/jakub_pomykala" target="_blank">@jakub_pomykala</a>
+    Ping me on Twitter <a href="https://twitter.com/jakub_pomykala" target="_blank">@jakub_pomykala</a> 👋
   </div>
 
   <div>
-    <h3>Checkout also</h3>
+    <h3>Read also</h3>
     {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
     {% for post in posts %}
     <div class="d-flex">

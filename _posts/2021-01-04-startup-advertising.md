@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "📢 Startup advertising: Stick with the bubble"
+title: "📢 Startup advertising: Stick with a bubble"
 tags: [communication, advertising, facebook, bubble]
 ---
 
