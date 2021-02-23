@@ -43,7 +43,12 @@ on this repository and add your resources. You will be really shocked how many *
 
 ### [📸 Javagram](https://github.com/jpomykala/javagram-bot)
 
-Project created to test Java 11+ API, I do not recommend using it because it's not allowed to use that kind of software on Instagram but the implementation is cool. 
+Project created to test Java 11+ API, I do not recommend using it because it's not allowed to use that kind of software on Instagram, but the implementation is cool. 
+
+### [🤖 Sentiment Analysis Experiment](https://github.com/jpomykala/SentimentAnalysis-Experiment)
+
+Did you know that sentiment analysis is LESS accurate than a coin toss (accuracy 50%)? That’s terrifying if your brand makes strategic 
+decisions based on such analytics. I made an experiment with Core NLP, Java 11+ and many IMDB reviews to test it. Checkout the results! 
 
 ---
 
