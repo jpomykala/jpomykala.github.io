@@ -1,18 +1,19 @@
 ---
 layout: post
 title: 📨 Contact form on static page with Amazon Lambda Function
-tags: [software-development, aws]
+tags: ['aws lambda', 'serverless', 'contact form']
 image: /assets/lambda.png
+modified_date: 2021-02-23 8:30:00 +0000
 ---
 
-If you are here I assume that you probably don't know PHP nor Wordpress, and so you decided to built a static web page or use some static 
+If you are here, then I assume that you probably don't know PHP nor Wordpress, and so you decided to build a static web page or use some static 
 page generator like Jekyll, Grav or GatsbyJS. Right now your obvious option to provide ability to create a 
 contact from is using a [formspree.io](https://formspree.io) or something similar. I'm going to show you how to write your own contact form 'backend' in very short time.
 
 ![lambda](/assets/2018-08-04/lambda.png) 
 
-Please remember that this is not a step by step tutorial, I'm describing overall architecture with the code (*copy-paste ready* certification). 
-If you have any remarks, write a comment in section below or [create a Github issue](https://github.com/jpomykala/jpomykala.github.io/blob/master/_posts/2018-08-04-serverless-contact-form-on-static-page.md). 😉
+Please remember that this is not a step-by-step tutorial, I'm describing overall architecture with code (*copy-paste ready* certification). 
+If you have any remarks, then [let me know](https://twitter.com/jakub_pomykala) or [create a Github issue](https://github.com/jpomykala/jpomykala.github.io/blob/master/_posts/2018-08-04-serverless-contact-form-on-static-page.md). 😉
 
 ### Requirements
 
@@ -25,13 +26,6 @@ If you have any remarks, write a comment in section below or [create a Github is
 - [Amazon SES](https://aws.amazon.com/ses/)
 - [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
 
-### Demo
-
-Same technique I used in many websites, here is one example. 
-
-[https://vendingmetrics.com/contact](https://vendingmetrics.com/contact) 
-
-So far I didn't have any issue with this solution.
 
 ### Build environment
 
@@ -39,38 +33,36 @@ If you are familiar with used technologies the diagram should be pretty straight
 
 ![aws-lambda-function](/assets/2018-08-04/architecture-diagram.png)
 
-
 Static web page should be gathering data from contact form, validate and send them using XHR Fetch, jQuery or in 
 other way to API Gateway by POST method. API Gateway will invoke Lambda function, and the Lambda function will invoke 
 our JavaScript code where we parse POST request, do some custom logic and call `sendEmail(...)` on SES service.
 
-### 0. Verify e-mail address
+### 0. Verify your e-mail address
 
-E-mail address verification can be done [here (eu-west-1)](https://eu-west-1.console.aws.amazon.com/ses/home?region=eu-west-1#verified-senders-email:)
+SES e-mail address verification can be done [here (eu-west-1)](https://eu-west-1.console.aws.amazon.com/ses/home?region=eu-west-1#verified-senders-email:)
 
 ![ses-verification](/assets/2018-08-04/ses-verification.png)
 
 ### 1. Lambda Function
 
-We will start with creating Lambda function and choosing NodeJS 8.1 environment.
+We will start with creating **AWS Lambda function** and choosing a NodeJS 8.1 environment.
 
 [The full code can be found on GitHub Gist](https://gist.github.com/jpomykala/a3548903e3454f7d65443053ec412b65)
 
 
 ###### import `aws-sdk`
 
-When we have prepared environment we can start to implement the function. First important thing is that we need to import `aws-sdk` to use SES and other Amazon services.
+Once we have prepared environment, then we can start to implement the function. A first important thing is that we need to import `aws-sdk` to use SES and other Amazon services.
 {% highlight javascript %}
 var aws = require("aws-sdk");
 {% endhighlight %}
 [Link to `aws-sdk` documentation](https://docs.aws.amazon.com/sdk-for-javascript/index.html)
 
 
-###### Lambda responses
-Success and error responses. This part is more important than you think. If we return wrong JSON from lambda function to API Gateway, 
-the client (contact form in this case) will get HTTP 500 status. Code will be invoked and email sent anyway, but it's just a good practise to 
-follow the documentation.
-
+###### AWS Lambda responses
+Success and error responses. This part is more important than you think. **If we return wrong JSON from lambda function to API Gateway, 
+the client (contact form in this case) will get HTTP 500 status.** Code will be invoked and email sent anyway, but it's just a good practise to 
+follow the documentation and just don't return 500 status codes intentionally.
 
 {% highlight javascript %}
 const successResponse = {
@@ -87,7 +79,7 @@ const errorResponse = {
     "headers": {
         "Content-Type": "application/json",
     },
-    "body": JSON.stringify({ message: "something bad happen, check logs" }),
+    "body": JSON.stringify({ message: "something bad happened, check logs" }),
     "isBase64Encoded": false
 };
 
@@ -109,7 +101,7 @@ const extractDomain = (emailAddress) => {
     return emailSplit[arraySize - 1];
 }
 
- const allowedDomains = ['example.com', 'jpomykala.me', 'yourdomain.com'];
+ const allowedDomains = ['simplelocalize.io', 'jpomykala.com', 'yourdomain.com'];
  const isDomainAllowed = (domain) => allowedDomains.includes(domain);
 {% endhighlight %}
 
@@ -141,9 +133,9 @@ const getEmailMessage = (request) => {
 }
 {% endhighlight %}
 
-###### Send e-mail by SES
-The most important part of this function is of course sending email by SES. We create a params with message, 
-subject and [all other options which can be found here.](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SES.html)
+###### Send e-mail with SES service
+The most important part of this function is of course sending email by SES. Let's create a JSON params object with a message, 
+subject and all other [SES options which can be found here.](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SES.html)
 {% highlight javascript %}
  const params = {
         Destination: {
@@ -172,19 +164,20 @@ subject and [all other options which can be found here.](https://docs.aws.amazon
         });
 {% endhighlight %}
 
-Now we can deploy our function and move to API Gateway.
+Now we can deploy our function and move to the API Gateway.
 
 ![aws-lambda-function](/assets/2018-08-04/send-mail-fuction-aws.png)
 
 
-### 2. API Gateway
-Setting up API Gateway for Lambda functions, should be straightforward. There is no need to code any thing, just click-and-play configuration.
-In this case I setup my endpoint to receive any http method. For working contact form you will need only `http/post` method. 
+### 2. Set up API Gateway
+Setting up API Gateway for Lambda functions, should be straightforward. There is no need to code anything, just click-and-play configuration.
+In this case I set up my endpoint to receive any HTTP method. For working contact form you will need only `http/post` method. 
+
 ![api-gateway](/assets/2018-08-04/api-gateway.png)
 
 ###### Things to remember
-- Every time we change something on endpoint configuration we need deploy API again to see changes. `Actions -> Deploy API`
-- Remember about setting up CORS while using API Gateway. `Actions -> Enable CORS`
+- Every time we change something on endpoint configuration we need deploy API again to see changes. Use: `Actions -> Deploy API`
+- Remember about setting up CORS while using API Gateway. Use: `Actions -> Enable CORS`
 
 
 ### 3. Contact form example
@@ -206,7 +199,7 @@ In this case I setup my endpoint to receive any http method. For working contact
 </form>
 {% endhighlight %}
 
-###### JavaScript
+###### JavaScript to submit the form
 {% highlight html %}
 <script>
         $("#callbackForm").submit(function(e) {
@@ -234,7 +227,10 @@ In this case I setup my endpoint to receive any http method. For working contact
 
 ### Conclusion
 
-We can scale this technique to multiple web pages with ease, but this solution in current form has few downsides.
-For now the only one protection against DDoS or some similar attack is rate limiter included in Lambda function.
+We can scale this technique to multiple web pages with ease, but this **solution in current form has few downsides.**
+For now the only one protection against DDoS or some similar attack is **rate limiter included in Lambda function**.
 Right now there is no bot protection, no captcha or something like that. We can add Google re-captcha on the contact 
 form and setup rate limiting on both API Gateway and Lambda function, to avoid unnecessary costs.
+
+### Update 2021-02-23 
+So far I didn't have any issues with this solution. I've never received any SPAM or message from a bot. 😄

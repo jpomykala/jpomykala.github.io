@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 🔐 Authenticated websocket connection with Spring Boot and ReactJS
-tags: [java, javascript, software-development, spring-framework]
+tags: [java, react, sockjs, websocket, authorization, spring boot]
 image: /assets/2017-12-19/spring-react.jpg
+modified_date: 2021-02-23 8:30:00 +0000
 ---
 
 Websockets are an easy way to update data on clients side without making request to server where there is no new data. 
@@ -11,7 +12,7 @@ It gives "wow effect" for clients and lower server costs for you.
 ![spring boot react websocket connection](/assets/2017-12-19/spring-react.jpg)
 
 ## Server side - Spring Framework
-We will start from adding proper dependency in `pom.xml` on backend side. In my case it latest stable version was `2.0.2.RELEASE`.
+We will start from adding proper dependency in `pom.xml` on backend side. In my case it the latest stable version was `2.0.2.RELEASE`.
 
 {% highlight xml %}
 <dependency>
@@ -50,7 +51,7 @@ Remember to provide ```TaskScheduler``` which is required to sending messages.
 In above example I also configured CORS by using list of allowed origins from ```*.yml``` configuration.
 
 ## Support for websocket authentication
-Unfortunelty as far as I know Spring websockets does not support authentication, so we need to implement it on our own. 
+Unfortunately as far as I know Spring websockets does not support authentication, so we need to implement it on our own. 
 I came up with very simple idea, I'm authenticating user on ``SessionSubscribeEvent``.
 
 {% highlight java %}
@@ -108,16 +109,13 @@ public void onClientUpdate(UpdateDashboardRequestEvent request) {
 {% endhighlight %}
 
 
-
-
-
 ## Client side - ReactJS 
 
-On client side I'm using two additional depedencies, one for sockJs and second for webstomp of course.
+On client side I'm using two additional dependencies, one for SockJS and second for webstomp of course.
 
-[https://github.com/sockjs/sockjs-client](https://github.com/sockjs/sockjs-client) 
+[sockjs-client](https://github.com/sockjs/sockjs-client) - official SockJS client 
 
-[https://github.com/JSteunou/webstomp-client](https://github.com/JSteunou/webstomp-client)
+[webstomp-client](https://github.com/JSteunou/webstomp-client) - community developed webstomp client
 
 {% highlight javascript %}
 import React from "react";
@@ -159,8 +157,8 @@ class Dashboard extends React.Component<Props, State> {
 
 ## Conclusions
 
-And we are done. Below is an example how it looks like in my application. 
-In terminal, we see logs from the server for test demo company with few vending machines. 
-Every time machine sold a product data are send to our server and then transaction is 
-validated and eventualy inserted to database. In the end I'm sending event 
-``UpdateDashboardRequestEvent`` to update dashboard.
+Done! 🌱 Below is an example how it looks like in my application. 
+In terminal, we see logs from the server for test demo company with a vending machines. 
+Every time machine sold a product data are sent to our server, and then transaction is 
+validated and eventually inserted to database. In the end I'm sending event 
+``UpdateDashboardRequestEvent`` to update the dashboard with WebSockets.
