@@ -178,10 +178,26 @@ article {
 
   h2, h3, h4, h5 {
     margin-top: 3rem !important;
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 0.8rem !important;
     font-size: 1.5rem !important;
     color: rgb(55, 65, 78) !important;
     font-weight: 600 !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  h3 {
+    font-size: 1.3rem !important;
+    margin-top: 2.8rem !important;
+    margin-bottom: 0.8rem !important;
+  }
+
+  h4 {
+    font-size: 1.1rem  !important;
+    margin-top: 2.6rem !important;
+    margin-bottom: 0.6rem !important;
   }
 
   p {
