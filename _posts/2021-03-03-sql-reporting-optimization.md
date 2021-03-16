@@ -78,7 +78,8 @@ Instead of dealing with 100_000_000 rows, now you can just work only 2 millions.
 
 You can update the summary table using SQL triggers, invoke code periodically in application to update it or calculate it in real-time in application code when a new transaction is inserted.
 
-> Beware of possible performance issues using `varchar` as foreign keys. Read more: https://dba.stackexchange.com/questions/15897/mysql-int-vs-varchar-as-primary-key-innodb-storage-engine
+
+> Checkout also star schema and snowflake schema. It more advanced structure which is used to keep multi-dimensional data in SQL. Above example is just a easy to introduce solution. :) 
 
 ## Use cascades
 
@@ -103,6 +104,8 @@ translation_id | translation_key | translation | language_key
 4 | `CREATE_ACCOUNT` | Stwórz konto | `pl_PL`
 
 If I want to search for translations for specific language instead of joining a `languages` table on numeric ID, I can directly query for translations with given `language_key` which is indexed.
+
+> Beware of possible performance issues using `varchar` as foreign keys. Read more: https://dba.stackexchange.com/questions/15897/mysql-int-vs-varchar-as-primary-key-innodb-storage-engine
 
 ## Use different technology
 
