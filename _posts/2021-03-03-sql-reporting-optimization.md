@@ -78,6 +78,7 @@ Instead of dealing with 100_000_000 rows, now you can just work only 2 millions.
 
 You can update the summary table using SQL triggers, invoke code periodically in application to update it or calculate it in real-time in application code when a new transaction is inserted.
 
+> Beware of possible performance issues using `varchar` as foreign keys. Read more: https://dba.stackexchange.com/questions/15897/mysql-int-vs-varchar-as-primary-key-innodb-storage-engine
 
 ## Use cascades
 
