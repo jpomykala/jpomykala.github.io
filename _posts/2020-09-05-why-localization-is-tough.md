@@ -50,7 +50,7 @@ So I provided a small Java app to convert such Excel file to format required by 
 
 Very quickly I turned everything what I learned into small simple SaaS project which I called [SimpleLocalize.io](https://simplelocalize.io) I think I solved most of the problems with i18n app translations.
 
-![simplelocalize project list](https://simplelocalize.io/static/ui-2fee8e735b014d8baea37d93c6108a41.png)
+![simplelocalize interface](/assets/2020-09-05/translation-editor-interface.png)
 
 The biggest advantage of [SimpleLocalize.io](https://simplelocalize.io) is that you can use any i18n library you want. [SimpleLocalize CLI](https://github.com/simplelocalize/simplelocalize-cli) will extract i18n keys from application source code, push them to the cloud where you can edit it and publish to the CDN which will make it easy to fetch and use in app. 
 
