@@ -1,7 +1,7 @@
 ---
 layout: post 
-title: "💬 I switched Gatsby and CRA to NextJS"
-tags: ['gatsby', 'cra', 'react', 'nextjs']
+title: "💬 How I switched Gatsby and CRA to NextJS"
+tags: ['gatsby', 'cra', 'react', 'nextjs', 'js to ts']
 ---
 
 When I started working on [SimpleLocalize](https://simplelocalize.io) I started with a very simple PoC app built with `create-react-app`. 
@@ -97,4 +97,18 @@ const myImage = "../assets/my-image.jpg"
 
 Now, all images are just `const` variables, and `<img/>` tags stayed as it is.
 
-### Migrating markdown from Gatsby to NextJS
+
+### Migrating JS files to TS files and JSX to TSX
+
+
+#### JS to TS
+
+```
+find src/ -name "*.js" -exec sh -c 'mv "$0" "${0%.js}.ts"' {} \;
+```
+
+#### JSX to TSX
+
+```
+find src/ -name "*.jsx" -exec sh -c 'mv "$0" "${0%.jsx}.tsx"' {} \;
+```
