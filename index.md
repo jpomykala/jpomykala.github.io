@@ -14,11 +14,11 @@ Image automation tool, for batch images generation, allows you to scale visuals 
 
 ### ![simplelocalize](/assets/images/simplelocalize-logo.png){:class="round"} [SimpleLocalize.io](https://simplelocalize.io) 2017
 
-Translation management platform, where you can keep your i18n content. Offers CLI for finding i18n terms from your project files, cloud editor and CDN for hosting translation data. Java 11+ & GraalVM
+Translation management platform, where you can keep your i18n content. Offers CLI for finding i18n terms from your project files, cloud editor and CDN for hosting translation data. Java 11+, GraalVM, NextJS
 
 ### ![placeflare](/assets/images/placeflare-logo.png){:class="round"} [PlaceFlare](https://placeflare.com) 2015
 
-Hand-picked of worth visit places around the world, sorting by distance (Apache Lucene), no adverts, no restaurants, no hotels, no sponsored content. 
+Hand-picked of worth visit places around the world, sorting by distance (Apache Lucene), no adverts, no restaurants, no hotels, no sponsored content. Java 8+, NextJS, Apache Lucene
 
 ### ![where-is-my-bus](/assets/images/where-is-my-bus-logo.png){:class="round"} [Where is my bus?](https://itunes.apple.com/pl/app/gdzie-jest-autobus/id1288955139?l=pl&mt=8) 2016
 
