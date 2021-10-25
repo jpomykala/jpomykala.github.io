@@ -115,7 +115,7 @@ The last step is to configure CodeBuild environment, like bellow.
 
 ![pushing to ecr](/assets/2018-11-10/codebuild-environment.png)
 
-And here we go! We can finally use latest Java features and push it to the production right away!
+And here we go! We can finally use the latest Java features and push it to the production right away!
 Next version is scheduled to March 2019, so we will go through this steps again but on `Dockerfile` 
 we will just change `maven:3.6-jdk-11` to `maven:3.6-jdk-12`. Even now we can do this because we can find docker images
 with beta releases of Java 12. 
