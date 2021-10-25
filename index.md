@@ -8,6 +8,10 @@ layout: home
 
 ## Projects
 
+### ![bannerly](/assets/images/bannerly-logo.jpg){:class="round"} [Bannerly.io](https://bannerly.io)
+
+Image automation tool, for scaling visuals based on templates created in Bannerly Template Editor. Java 17+, Canvas, NextJS
+
 ### ![simplelocalize](/assets/images/simplelocalize-logo.png){:class="round"} [SimpleLocalize.io](https://simplelocalize.io)
 
 Translation management platform, where you can keep your i18n content. Offers CLI for finding i18n terms from your project files, cloud editor and CDN for hosting translation data. Java 11+ & GraalVM
