@@ -8,23 +8,23 @@ layout: home
 
 ## Projects
 
-### ![bannerly](/assets/images/bannerly-logo.jpg){:class="round"} [Bannerly.io](https://bannerly.io)
+### ![bannerly](/assets/images/bannerly-logo.jpg){:class="round"} [Bannerly.io](https://bannerly.io) 2021
 
 Image automation tool, for batch images generation, allows you to scale visuals based on templates created in Bannerly Template Editor. Java 17+, Canvas, NextJS
 
-### ![simplelocalize](/assets/images/simplelocalize-logo.png){:class="round"} [SimpleLocalize.io](https://simplelocalize.io)
+### ![simplelocalize](/assets/images/simplelocalize-logo.png){:class="round"} [SimpleLocalize.io](https://simplelocalize.io) 2017
 
 Translation management platform, where you can keep your i18n content. Offers CLI for finding i18n terms from your project files, cloud editor and CDN for hosting translation data. Java 11+ & GraalVM
 
-### ![placeflare](/assets/images/placeflare-logo.png){:class="round"} [PlaceFlare](https://placeflare.com)
+### ![placeflare](/assets/images/placeflare-logo.png){:class="round"} [PlaceFlare](https://placeflare.com) 2015
 
 Hand-picked of worth visit places around the world, sorting by distance (Apache Lucene), no adverts, no restaurants, no hotels, no sponsored content. 
 
-### ![where-is-my-bus](/assets/images/where-is-my-bus-logo.png){:class="round"} [Where is my bus?](https://itunes.apple.com/pl/app/gdzie-jest-autobus/id1288955139?l=pl&mt=8)
+### ![where-is-my-bus](/assets/images/where-is-my-bus-logo.png){:class="round"} [Where is my bus?](https://itunes.apple.com/pl/app/gdzie-jest-autobus/id1288955139?l=pl&mt=8) 2016
 
 iOS transportation application for my hometown. I made it for my sister's request because the buses are often late, and she didn't know how long she needs to wait. 😄
 
-### ![true-or-false](/assets/images/true-or-false-logo.png){:class="round"} [True or False](https://play.google.com/store/apps/details?id=pl.evelanblog.prawdaczyfalsz&hl=pl)
+### ![true-or-false](/assets/images/true-or-false-logo.png){:class="round"} [True or False](https://play.google.com/store/apps/details?id=pl.evelanblog.prawdaczyfalsz&hl=pl) 2013
 
 The game for Android, where you answer to true/false questions. Supports multiplayer up to 4 players via Google Play Services. Currently, game has +5 000 000 downloads. 
 
