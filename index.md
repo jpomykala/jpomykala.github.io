@@ -10,7 +10,7 @@ layout: home
 
 ### ![bannerly](/assets/images/bannerly-logo.jpg){:class="round"} [Bannerly.io](https://bannerly.io)
 
-Image automation tool, for scaling visuals based on templates created in Bannerly Template Editor. Java 17+, Canvas, NextJS
+Image automation tool, for batch images generation, allows you to scale visuals based on templates created in Bannerly Template Editor. Java 17+, Canvas, NextJS
 
 ### ![simplelocalize](/assets/images/simplelocalize-logo.png){:class="round"} [SimpleLocalize.io](https://simplelocalize.io)
 
