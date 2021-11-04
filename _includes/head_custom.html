@@ -3,6 +3,15 @@
 
 <meta name="p:domain_verify" content="e2c4555f57ed4daba81b593d97d55958"/>
 
+
+{% if page.image %}
+<meta property="bannerly:image" content="{{page.image}}">
+{% endif %}
+
+{% if page.title %}
+<meta property="bannerly:title" content="{{page.title}}">
+{% endif %}
+
 <meta property="og:image" content="https://get.bannerly.io/meta/T:KpRwjHwRpfOTbIFUcoht2aap1u1h9EKU3wnyhj7i/image.jpg?url={{site.url}}{{page.url}}">
 <meta name="twitter:image" content="https://get.bannerly.io/meta/T:KpRwjHwRpfOTbIFUcoht2aap1u1h9EKU3wnyhj7i/image.jpg?url={{site.url}}{{page.url}}">
 

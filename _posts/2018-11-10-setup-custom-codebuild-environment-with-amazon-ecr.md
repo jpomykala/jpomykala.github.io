@@ -2,7 +2,7 @@
 layout: post
 title: ☁️ Setup custom CodeBuild environment with Amazon ECR
 tags: ['jenkins', 'aws ecr', 'aws codebuild', 'java 11']
-image: /assets/2018-11-10/codebuild-environment.png
+image: https://jpomykala.com/assets/2018-11-10/codebuild-environment.png
 ---
 
 Since faster Java development by Oracle, every tool we use these days 
