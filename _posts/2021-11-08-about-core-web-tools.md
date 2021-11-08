@@ -9,8 +9,8 @@ Core Web Tools is a directory with web tools for internet users. It's created wi
 
 ## Why?
 
-There is a lot of great small utility apps in the web, and I think they are not getting enough attention.
-I wanted to make the app easy to use, that's why there is no signups or tons of unnecessary stuff, just list of links with a small preview.
+There are a lot of great small utility apps on the web, and I think they are not getting enough attention.
+I wanted to make the app easy to use, that's why there is no signup or tons of unnecessary stuff, just a list of links with small preview.
 
 ![Core Web Tools](/assets/2021-11-08/core-web-tools.png)
 
@@ -21,13 +21,13 @@ I wanted to make the app easy to use, that's why there is no signups or tons of 
 
 ## Submission Rules
 
-To be honest there is no restrictions in that matter. You can submit anything, but not everything will be added right away.
+To be honest there are no restrictions in that matter. You can submit anything, but not everything will be added right away.
 You can add your small and clunky side-project, or big paid service. It's hard to decide at this moment what tools should be listed.
 
-For now the priority are small web apps which solves some problem using just a JavaScript in your web browser, no servers and so on or apps which don't have any
+For now the priority are small web apps that solve some problem using just a JavaScript in your web browser, no servers and so on; or apps which don't have any
 fancy landing page to get visibility. 
 
-I added a few services which has paid options because they are used in this project, so I think they deserve for it.
+However, I added a few services which have paid options because they are actually used in this project, so I think they deserve being listed.
 
 
 ![Core Web Tools Submission](/assets/2021-11-08/submit-core-web-tool.png)
@@ -39,11 +39,11 @@ I added a few services which has paid options because they are used in this proj
 
 - Database: [JSON](https://www.json.org/json-en.html)
 - Framework: [NextJS](https://nextjs.org)
-- Analytics: [PanelBear](http://panelbear.com)
+- Analytics: [Panelbear](http://panelbear.com)
 - Hosting: [Vercel](https://vercel.com)
 - Developer: [@jakub_pomykala](https://twitter.com/jakub_pomykala) 😄
 
 ## What's next?
 
-If the project will be used by more people than myself, I would like to review added tools and posts them 
+If the project will be used by more people than myself, I would like to review listed tools and posts them 
 every week or month as collection of 'My favourites', 'Designer Tools' or 'Web Developer 2021'.
