@@ -26,6 +26,13 @@
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css"
       integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">
 
+<script>
+  (function (){
+    var img = new Image();
+    img.src = "https://meta.bannerly.io/meta/v0ZUWI5nvvHbE4RiIb0f/image.jpg?url={{site.url}}{{page.url}}";
+  })
+</script>
+
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
@@ -43,5 +50,16 @@
     ]
   }
 </script>
+
+{% if page.title %}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "TechArticle",
+    "name": "{{page.title}}",
+    "url": "{{site.url}}{{page.url}}"
+  }
+</script>
+{% endif %}
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
