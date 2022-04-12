@@ -6,13 +6,22 @@ image: https://jpomykala.com/assets/2022-04-12/example-search-results.png
 ---
 
 
-Since 2019 I'm building a [SaaS for translation management](https://simplelocalize.io) as a solo developer. Since very begining
-I needed a place where I could post code samples, and explain people how to integrate different frameworks with SimpleLocalize or how
-to use [SimpleLocalize CLI](https://github.com/simplelocalize/simplelocalize-cli) to upload and download translation files. 
+Since 2019 I'm building a [SaaS for translation management](https://simplelocalize.io) as a solo developer. Since the very beginning,
+I needed a place where I could post code samples, and explain people how to integrate different frameworks or how
+to use SimpleLocalize CLI to upload and download translation files. 
+You can see Algolia search in action on [SimpleLocalize documentation](https://simplelocalize.io/docs/).
+
 
 ![algolia nextjs markdown example](/assets/2022-04-12/example-search-results.png)
 
+At beginning, I started using [GitBook](https://www.gitbook.com) software because it was shining and trendy at the time. It was a good move,
+because when you start something new you don't want to start from scratch on every level. The main goal is to deliver good quality code and value to the customers, 
+all other things you can (or should) buy to save time. 
 
+Short story long, I wasn't quite happy with the GitBook after couple of months, because it didn't fit to my needs, I didn't like
+the style, and I was spending too much time on adjusting and fixing links and so on. I decided to go with my custom documentation, and 
+surprisingly everything went smoothly! The only concert was lack o good search ability which is available in all documentation solutions, 
+or [open-source Docusaurus](https://github.com/facebook/docusaurus).
 
 
 ## Installation
@@ -207,4 +216,4 @@ You can execute the script manually by running `npm run index:docs`.
 
 That's it? That's it! See the search in action on SimpleLocalize [documentation page](https://simplelocalize.io/docs).
 
-<div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/698425700?h=d3c47c4475&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="algolia-search-with-markdown-and-next-js-example"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+[//]: # (<div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/698425700?h=d3c47c4475&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="algolia-search-with-markdown-and-next-js-example"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>)

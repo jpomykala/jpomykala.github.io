@@ -16,6 +16,14 @@
   line-height: 1.5;
 }
 
+a {
+  color: #007FFA;
+
+  &:visited {
+    color: #007FFA;
+  }
+}
+
 p {
   @extend %text;
   text-align: justify;
@@ -37,6 +45,11 @@ li {
     margin: 0;
     padding: 0;
   }
+
+  i {
+    margin-left: 8px;
+    color: #007FFA;
+  }
 }
 
 .mt-0 {
@@ -51,9 +64,17 @@ li {
 }
 
 .profiles {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
   a {
     margin-right: 8px;
     margin-left: 8px;
+  }
+
+  i {
+    font-size: 24px;
+    text-decoration: none;
   }
 }
 
