@@ -6,17 +6,72 @@
 * {
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+
+%text {
   color: rgb(48, 58, 69);
   font-weight: 400;
-  line-height: 1.8rem;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p {
+  @extend %text;
+  text-align: justify;
+
   a {
     text-underline-offset: 6px;
   }
 }
 
+li {
+  @extend %text;
+}
+
+.intro-header {
+  display: flex;
+  align-items: center;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.avatar-lg {
+  margin-right: 24px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+.profiles {
+  a {
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+}
+
+.text-muted {
+  color: #7c7c7c;
+}
+
+small {
+  font-size: 14px;
+}
+
+.made-with {
+  margin-top: 8px;
+  text-align: center;
+}
+
 strong {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 img {
@@ -43,30 +98,15 @@ img {
 }
 
 hr {
-  background-color: #fbfcfd;
-  height: 1px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .avatar {
   max-width: 100px;
   max-height: 100px;
-  border-radius: 50%;
-}
-
-.post-img-header {
-  width: 100%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
-
-.caption {
-  font-style: italic;
-  text-align: center;
-}
-
-.avatar-lg {
-  max-width: 140px;
-  max-height: 140px;
   border-radius: 50%;
 }
 
@@ -77,16 +117,8 @@ hr {
   margin-right: 5px;
 }
 
-.nice-image {
-  max-width: 80%;
-}
-
 .post-link {
   text-underline-offset: 6px;
-}
-
-.page-link {
-  display: initial;
 }
 
 .trigger {
@@ -95,11 +127,6 @@ hr {
   a {
     display: inline;
   }
-}
-
-hr {
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
 }
 
 h1 {
@@ -112,7 +139,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: rgb(60, 67, 74);
+  color: rgb(38, 42, 48);
 
   margin-top: 2rem;
   margin-bottom: 1.5rem;
@@ -138,9 +165,6 @@ h5 {
   font-size: 1.6rem;
 }
 
-p {
-  text-align: justify;
-}
 
 .use-dashed-links {
   a {
@@ -240,4 +264,3 @@ footer {
     margin: 0 10px;
   }
 }
-

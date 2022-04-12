@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Core Web Tools
+title: 🧰 About Core Web Tools
 tags: [core, web, tools]
 image: https://jpomykala.com/assets/2021-11-08/core-web-tools.png
 ---
@@ -39,7 +39,6 @@ However, I added a few services which have paid options because they are actuall
 
 - Database: [JSON](https://www.json.org/json-en.html)
 - Framework: [NextJS](https://nextjs.org)
-- Analytics: [Panelbear](http://panelbear.com)
 - Hosting: [Vercel](https://vercel.com)
 - Developer: [@jakub_pomykala](https://twitter.com/jakub_pomykala) 😄
 
