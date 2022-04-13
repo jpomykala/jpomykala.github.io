@@ -7,31 +7,28 @@ image: https://jpomykala.com/assets/2022-04-12/example-search-results.png
 
 
 Since 2019 I'm building a [SaaS for translation management](https://simplelocalize.io) as a solo developer. Since the very beginning,
-I needed a place where I could post code samples, and explain people how to integrate different frameworks or how
-to use SimpleLocalize CLI to upload and download translation files. 
-You can see Algolia search in action on [SimpleLocalize documentation](https://simplelocalize.io/docs/).
+I needed a place where I could post code samples, and explain to people how to integrate different frameworks or how to use SimpleLocalize CLI to upload and download translation files. That's why I built my project documentation. Once the app and docs started to grow, it turned out that I need a search option. After some research, I decided to implement Algolia.
+See Algolia search in action on [SimpleLocalize documentation](https://simplelocalize.io/docs/).
 
 
 ![algolia nextjs markdown example](/assets/2022-04-12/example-search-results.png)
 
-At beginning, I started using [GitBook](https://www.gitbook.com) software because it was shining and trendy at the time. It was a good move,
-because when you start something new you don't want to start from scratch on every level. The main goal is to deliver good quality code and value to the customers, 
-all other things you can (or should) buy to save time. 
+At the very beginning of my journey with documentation, I was testing [GitBook](https://www.gitbook.com) software because it was shining and trendy at the time. It was a good move,
+because when you start something new, you want to avoid starting from scratch on every level. The main goal then is to deliver good quality code and value to the customers, all other things you can (or should) buy to save time. 
 
-Short story long, I wasn't quite happy with the GitBook after couple of months, because it didn't fit to my needs, I didn't like
-the style, and I was spending too much time on adjusting and fixing links and so on. I decided to go with my custom documentation, and 
-surprisingly everything went smoothly! The only concert was lack o good search ability which is available in all documentation solutions, 
-or [open-source Docusaurus](https://github.com/facebook/docusaurus).
+Long story short, I wasn't thrilled with GitBook after a couple of months because it didn't fit to my needs. I didn't like the style, and I was spending too much time on adjusting and fixing links and so on. I decided to go with my custom documentation, and 
+surprisingly, everything went smoothly! The only concern was lack of good search option, which is available in all documentation solutions, 
+or [open-source Docusaurus](https://github.com/facebook/docusaurus). While searching for the best options and considering implementing my own search, I came across Algolia.
 
 
 ## Installation
 
-Algolia search components and Algolia client installation
+Start with Algolia search components and Algolia client installation:
 ```shell
 npm install react-instantsearch-dom algoliasearch --save
 ```
 
-[gray-matter](https://github.com/jonschlinkert/gray-matter) a Markdown parser and [globby](https://github.com/sindresorhus/globby) for finding files
+Then install [gray-matter](https://github.com/jonschlinkert/gray-matter), a Markdown parser, and [globby](https://github.com/sindresorhus/globby) for finding files:
 ```shell
 npm install gray-matter globby --saveDev
 ```
@@ -70,7 +67,7 @@ const Results = connectStateResults(({searchState, searchResults, searching}) =>
 
 ### Hit component
 
-Hit component is nothing else as just a one search result. I stripped my styling to make it easier to copy-paste. 😄 
+Hit component is nothing but just one search result. I stripped my styling to make it easier to copy-paste. 😄 
 
 ```tsx
 import React from "react";
@@ -91,8 +88,7 @@ export default Hit;
 
 ### Search component
 
-Use `InstantSearch` component and search client which you configured in the previous step, put your index name, and 
-use Algolia `SearchBox` component and our custom `Results` component with changed empty state behaviour which we created previously.
+Use `InstantSearch` component and search client, which you configured in the previous step. Put your index name and use Algolia `SearchBox` component and my custom `Results` component we created previously to change empty state behavior.
 
 ```tsx
 <InstantSearch indexName="simplelocalize-docs" searchClient={searchClient}>
@@ -100,8 +96,7 @@ use Algolia `SearchBox` component and our custom `Results` component with change
     <Results/>
 </InstantSearch>
 ```
-I didn't want to make it more complex that it needs to be, I overwrite some CSS properties in my stylesheets to hide a search button and reset button. 
-I also added Bootstrap styling to the search box using SCSS `@extend` property. Simple and it does the job.
+I felt it would be better not to make it more complex than it needs to be, so I overwrite some CSS properties in my stylesheets to hide the search and reset buttons. I also added Bootstrap styling to the search box using SCSS `@extend` property. It's simple and it does the job.
 
 ```scss
 .ais-SearchBox-input {
@@ -120,9 +115,7 @@ I also added Bootstrap styling to the search box using SCSS `@extend` property. 
 
 ## Get markdown files to index
 
-Now, it's time to get all files which should be indexed and visible in the search results.
-I created a new `index-docs.js` file which I will be executed after every successful build on CI/CD server.
-All my documentation pages are in `/docs/` directory. So I needed to write a script for converting it into an array of objects to populate Algolia search index.
+Now, it's time to get all files that should be indexed and visible in the search results. I created a new `index-docs.js` file which will be executed after every successful build on CI/CD server. All my documentation pages are in `/docs/` directory. So, I needed to write a script for converting it into an array of objects to populate Algolia search index.
 
 ```typescript
 import {globby} from 'globby';
@@ -154,11 +147,11 @@ const objects = pages.map(page => {
 
 - I'm getting all markdown files from `/docs/` directory with `globby`, 
 - reading content of the files with `fs`,
-- parsing files with `gray-matter` for markdown, 
+- parsing files with `gray-matter` for Markdown, 
 - and doing some magic tricks to convert file path to slugs which are used.
 
 In my case, slugs are the just file paths, where the file path looks like this `/docs/{category}/{title}.md`, for example:
-`/docs/integrations/next-translate.md`, so slug will look like this: `/docs/integrations/next-translate/`
+`/docs/integrations/next-translate.md`, so slug will look like this: `/docs/integrations/next-translate/`.
 
 In the end I'm getting an array of objects which looks like this:
 
@@ -178,8 +171,7 @@ In the end I'm getting an array of objects which looks like this:
 
 ### Update Algolia index
 
-Algolia provides a really simple and easy to use JavaScript client, so there no magic here. We are acquiring our index, and
-saving objects which we created in previous step.
+Algolia provides a really simple and easy to use JavaScript client, so there is no magic here. We are acquiring our index, and saving objects which we created in the previous step.
 
 ```typescript
 const client = algoliasearch(
@@ -214,6 +206,6 @@ You can execute the script manually by running `npm run index:docs`.
 
 ![algolia search index overview](/assets/2022-04-12/algolia-docs-search-index-overview.png)
 
-That's it? That's it! See the search in action on SimpleLocalize [documentation page](https://simplelocalize.io/docs).
+And that's it! See the search in action on SimpleLocalize [documentation page](https://simplelocalize.io/docs).
 
 [//]: # (<div style="padding:100% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/698425700?h=d3c47c4475&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="algolia-search-with-markdown-and-next-js-example"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>)
