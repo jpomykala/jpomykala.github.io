@@ -186,21 +186,6 @@ h5 {
   font-size: 1.6rem;
 }
 
-
-.use-dashed-links {
-  a {
-    color: rgb(3, 103, 216) !important;
-    border-bottom: 1px dashed rgba(48, 122, 207, 0.67);
-    padding-bottom: 1px;
-
-    &:hover {
-      border-bottom: 1px solid rgb(48, 122, 207);
-      text-decoration: none !important;
-      text-decoration-skip: auto;
-    }
-  }
-}
-
 article {
   header {
     .post-title {
@@ -216,8 +201,6 @@ article {
       color: #828282;
     }
   }
-
-  @extend .use-dashed-links;
 
   h2, h3, h4, h5 {
     margin-top: 3rem !important;
