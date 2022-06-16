@@ -31,18 +31,13 @@ layout: default
     {{ content }}
   </div>
 
-
   <div>
-    Ping me on Twitter <a href="https://twitter.com/jakub_pomykala" target="_blank">@jakub_pomykala</a> 👋
-  </div>
-
-  <div>
-    <h3>Read also</h3>
+    <h3>Related content</h3>
     {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
     {% for post in posts %}
-    <div class="d-flex">
+    <div>
       <h5 class="mt-0">
-        <a class="post-link" href="{{ post.url | relative_url }}">
+        <a href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
       </h5>

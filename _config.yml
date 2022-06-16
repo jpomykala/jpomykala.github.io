@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Jakub Pomykała
 description: Creation over consumption
-logo: "/assets/me-2019.jpeg"
+logo: "/assets/me-2021.jpeg"
 baseurl: ""
 url: "https://jpomykala.com"
 twitter:
@@ -53,6 +53,5 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-google_analytics: UA-17049730-15
 show_excerpts: true
 permalink: /:year/:month/:day/:title

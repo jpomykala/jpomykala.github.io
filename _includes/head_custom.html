@@ -1,14 +1,30 @@
-<meta name="keywords" content="software developer, java, reactjs, blog">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <meta name="p:domain_verify" content="e2c4555f57ed4daba81b593d97d55958"/>
 
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
-<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-grid.min.css" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet"/>
-<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-reboot.min.css" rel="stylesheet"/>
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css"
-      integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">
+
+{% if page.image %}
+<meta property="bannerly:image" content="{{page.image}}">
+{% endif %}
+
+{% if page.title %}
+<meta property="bannerly:title" content="{{page.title}}">
+{% endif %}
+
+<link rel="preload" as="image" href="https://get.bannerly.io/og/v0ZUWI5nvvHbE4RiIb0f.jpg?url={{site.url}}{{page.url}}">
+<meta property="og:image" content="https://get.bannerly.io/og/v0ZUWI5nvvHbE4RiIb0f.jpg?url={{site.url}}{{page.url}}">
+<meta name="twitter:image" content="https://get.bannerly.io/og/v0ZUWI5nvvHbE4RiIb0f.jpg?url={{site.url}}{{page.url}}">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="{{page.title}}"/>
+<meta name="twitter:description" content="{{page.title}}"/>
+<script defer data-domain="jpomykala.com" data-api="/conky/ricky/event" src="/conky/julian/script.js"></script>
+
+<script>
+  (function (){
+    var img = new Image();
+    img.src = "https://get.bannerly.io/og/v0ZUWI5nvvHbE4RiIb0f.jpg?url={{site.url}}{{page.url}}";
+  })
+</script>
 
 <script type="application/ld+json">
   {
@@ -21,11 +37,21 @@
     "givenName": "Jakub",
     "jobTitle": "Software Developer",
     "worksFor": "Jakub Pomykała",
-    "image": "https://jpomykala.com/images/me-2019.png",
+    "image": "https://jpomykala.com/images/me-2021.png",
     "sameAs": [
       "https://github.com/jpomykala"
     ]
   }
 </script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+{% if page.title %}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "TechArticle",
+    "name": "{{page.title}}",
+    "url": "{{site.url}}{{page.url}}"
+  }
+</script>
+{% endif %}
+
