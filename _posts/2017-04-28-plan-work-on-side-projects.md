@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 👨‍💻 How to plan your work on a side project
-tags: [startup, productivity, devlog]
+tags: ['other']
 ---
 
 I meet many people that would like to learn programming to build something, or they already know how to create things but because of lack of time or willingness are not realizing their plans. If you are the one of this person I got only one piece of advice for you.

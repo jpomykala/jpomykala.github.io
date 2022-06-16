@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "🚛 MySQL optimization tips"
-tags: ['mysql', 'sql', 'tips', 'optimization']
+tags: ['database', 'sql']
 ---
 
 This is my **list of the most commonly used and shared ideas on improving MySQL performance**. I will update this periodically because listing all tips at once would take too much time. 😄

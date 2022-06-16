@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 📨 Contact form on a static page with Amazon Lambda Function
-tags: ['aws lambda', 'serverless', 'contact form', startup]
+tags: ['aws', 'serverless']
 image: https://jpomykala.com/assets/lambda.png
 modified_date: 2021-02-23 8:30:00 +0000
 ---

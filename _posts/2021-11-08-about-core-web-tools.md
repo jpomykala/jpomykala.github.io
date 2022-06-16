@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 🧰 About Core Web Tools
-tags: [core, web, tools]
+tags: ['other']
 image: https://jpomykala.com/assets/2021-11-08/core-web-tools.png
 ---
 

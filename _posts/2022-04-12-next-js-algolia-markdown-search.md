@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "🔎 How I integrated Algolia search with NextJS and markdown files?"
-tags: ['nextjs', 'devlog']
+tags: ['frontend']
 image: https://jpomykala.com/assets/2022-04-12/example-search-results.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ☁️ Setup custom CodeBuild environment with Amazon ECR
-tags: ['jenkins', 'aws ecr', 'aws codebuild', 'java 11']
+tags: ['aws', 'java', 'docker']
 image: https://jpomykala.com/assets/2018-11-10/codebuild-environment.png
 ---
 

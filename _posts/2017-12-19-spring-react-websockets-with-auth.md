@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 🔐 Authenticated websocket connection with Spring Boot and ReactJS
-tags: [java, react, sockjs, websocket, authorization, spring boot]
+tags: ['java', 'spring boot', 'frontend', 'websocket']
 image: https://jpomykala.com/assets/2017-12-19/spring-react.jpg
 modified_date: 2021-02-23 8:30:00 +0000
 ---

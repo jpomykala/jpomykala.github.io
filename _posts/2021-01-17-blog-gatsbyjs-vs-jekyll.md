@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "☀️ Blog: Jekyll vs GatsbyJS"
-tags: [jekyll, design, gatsbyjs, javascript]
+tags: ['frontend', 'other']
 ---
 
 Do you know that feeling when you are adjusting blog CSS instead of writing posts? I spent countless hours on optimizing landing pages for [my projects](https://jpomykala.com/#projects), and [my personal blog](https://jpomykala.com) using GatsbyJS. 

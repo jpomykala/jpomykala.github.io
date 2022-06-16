@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "💬 How I switched Gatsby and CRA to NextJS"
-tags: ['gatsby', 'cra', 'react', 'nextjs', 'js to ts']
+tags: ['frontend']
 ---
 
 When I started working on [SimpleLocalize](https://simplelocalize.io) I started with a very simple PoC app built with `create-react-app`. 
