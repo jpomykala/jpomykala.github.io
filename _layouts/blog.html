@@ -23,7 +23,7 @@ layout: default
       {% endfor %}
       </span>
       <h2 class="mt-0">
-        <a class="post-link" href="{{ post.url | relative_url }}">
+        <a href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
       </h2>
@@ -37,10 +37,7 @@ layout: default
   </ul>
 
   <p class="feed-subscribe">
-    <svg class="svg-icon orange">
-      <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-    </svg>
-    <a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
+    <a href="{{ "/feed.xml" | relative_url }}">RSS Feed</a></p>
   {%- endif -%}
 
 </div>

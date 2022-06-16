@@ -62,9 +62,8 @@ decisions based on such analytics. I made an experiment with Core NLP, Java 11+ 
 
 ---
 
-## Cool services and apps worth paying
+## Cool services and apps
 
-- [MyMavenRepo](https://mymavenrepo.com) - private Maven repository
-- [CodeClimate](https://codeclimate.com) - measuring maintainability and code quality
+- [Magnet](https://magnet.crowdcafe.com) - must have for 4k display owners
 - [Alfred](https://www.alfredapp.com) - improves productivity
-- [Magnet](https://magnet.crowdcafe.com) (cool website!) - must have for 4k display owners
+- [MyMavenRepo](https://mymavenrepo.com) - private Maven repository
