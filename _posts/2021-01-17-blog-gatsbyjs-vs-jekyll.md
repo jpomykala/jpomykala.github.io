@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "☀️ Era of simplicity: Renascence of Jekyll"
+title: "☀️ Blog: Jekyll vs GatsbyJS"
 tags: [jekyll, design, gatsbyjs, javascript]
 ---
 
