@@ -27,6 +27,7 @@ Another perfect use case would be getting updates from people you follow. In a p
 company profile would just post updates of what might be useful for their followers. Instead, we are getting 
 another marketing crap just to remind people that XYZ exists.
 
+![funny tweets](/assets/2022-06-17/funny-tweets.png)
 
 ## Can we improve it?
 
@@ -63,6 +64,8 @@ The choice is pretty simple for me.
 Twitter won't die anytime soon, but I think people will get tired of it at some point. Same as it was/is with
 Facebook, Instagram, Google+ etc.
 
+![twitter profile](/assets/2022-06-17/twitter-profile.png)
+
 ## New trend
 
 Recently, I saw in App Store an app called BeReal (top 1 position). It's like a social media app,
@@ -72,7 +75,8 @@ front and back one. Even more important is the fact, that you see a preview only
 so you don't know how you look while you take a photo. Surprising and astonishing at the first try!
 Both photos are uploaded and shared with your friends. Pretty cool.
 
-[Link](https://bere.al/en)
+
+![be real app](/assets/2022-06-17/bereal.png)
 
 ## From privacy-focused perspective
 
@@ -84,6 +88,8 @@ More and more organizations decide to be more transparent, and straightforward w
 - [https://www.reddit.com/r/degoogle/](https://www.reddit.com/r/degoogle/)
 - many newly created anonymous web trackers (this website uses Plausible.io)
 
+
+![localization service screenshot](/assets/2022-06-17/tracking-free-localization-service.png)
 
 ## Tracking awareness
 
