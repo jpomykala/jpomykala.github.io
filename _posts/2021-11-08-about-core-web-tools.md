@@ -2,7 +2,6 @@
 layout: post
 title: 🧰 About Core Web Tools
 tags: ['other']
-image: https://jpomykala.com/assets/2021-11-08/core-web-tools.png
 ---
 
 Core Web Tools is a directory with web tools for internet users. It's created with minimal server usage for near to zero-carbon emission in mind.

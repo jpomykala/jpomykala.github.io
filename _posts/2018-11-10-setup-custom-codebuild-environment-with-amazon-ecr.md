@@ -2,7 +2,6 @@
 layout: post
 title: ☁️ Setup custom CodeBuild environment with Amazon ECR
 tags: ['aws', 'java', 'docker']
-image: https://jpomykala.com/assets/2018-11-10/codebuild-environment.png
 ---
 
 Since faster Java development by Oracle, every tool we use these days 
@@ -17,6 +16,8 @@ our own build environment which will support Java 11 and Java 12 in future right
 - AWS CLI
 - Docker
 - Amazon ECR
+
+![codebuild environment](/assets/2018-11-10/codebuild-environment.png)
 
 We are going to need nothing special for this. AWS CLI with AWS account obliviously. Installed docker on 
 our local machine to build image, and some basic knowledge how docker works and how proper Dockerfile should looks like.

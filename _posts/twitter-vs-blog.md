@@ -2,7 +2,6 @@
 layout: post 
 title: "✍️ Twitter vs Blog: Grumpy opinion"
 tags: ['other']
-image: https://jpomykala.com/assets/2022-04-12/example-search-results.png
 ---
 
 What if we all switch to blogs instead of Twitter? Did you notice how Twitter become 
