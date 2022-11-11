@@ -24,13 +24,9 @@ twitter:
 social:
   name: Jakub Pomykała
   links:
-    - https://twitter.com/jakub_pomykala
-    - https://www.facebook.com/jpomykala94/
     - https://www.linkedin.com/in/jakubpomykala/
     - https://github.com/jpomykala
-    - https://www.instagram.com/jpomykala/
 header_pages:
-  - reading-list.md
   - photos.md
   - posts.md
 
