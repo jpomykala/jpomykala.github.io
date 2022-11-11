@@ -8,14 +8,14 @@ layout: home
 
 ## Projects
 
-### ![RenderForm](/assets/images/bannerly-logo.jpg){:class="round"} [RenderForm.io](https://RenderForm.io) 
-Image automation tool, for batch images generation, allows you to scale visuals based on templates created in RenderForm Template Editor. Java 17+, HTML Canvas, NextJS
+### ![RenderForm](/assets/images/renderform-logo@512w.png){:class="round"} [RenderForm.io](https://RenderForm.io) 
+Graphics editor with superpowers. No-code automation for images and PDFs, allows you to scale visuals based on templates created in RenderForm Template Editor. Java 17+, HTML Canvas, NextJS
 
 <small class="text-muted">Started in 2021</small>
 
 
 ### ![simplelocalize](/assets/images/simplelocalize-logo.png){:class="round"} [SimpleLocalize.io](https://simplelocalize.io)
-Translation management platform, where you can keep your i18n content. Offers CLI for finding i18n terms from your project files, cloud editor and CDN for hosting translation data. Java 11+, GraalVM, NextJS
+Translation management platform, where you can keep translation files and strings. Offers command-line tool for easy synchronization files between your local files and translation editor. Translation Hosting allows you to fetch translations whenever your customers are. Java 17+, GraalVM, NextJS
 
 <small class="text-muted">Started in 2017</small>
 
