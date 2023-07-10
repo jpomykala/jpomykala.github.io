@@ -21,11 +21,6 @@ url: "https://jpomykala.com"
 twitter:
   username: jakub_pomykala
   card: summary
-social:
-  name: Jakub Pomykała
-  links:
-    - https://www.linkedin.com/in/jakubpomykala/
-    - https://github.com/jpomykala
 header_pages:
   - photos.md
   - posts.md
