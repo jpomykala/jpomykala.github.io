@@ -130,8 +130,8 @@ hr {
 }
 
 .round {
-  max-width: 42px;
-  max-height: 42px;
+  max-width: 42px !important;
+  max-height: 42px !important;
   border-radius: 50%;
   margin-right: 5px;
 }
