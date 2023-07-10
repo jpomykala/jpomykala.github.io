@@ -30,7 +30,7 @@ The column order in an index must be exactly the same as column order in `where`
 
 ## Use window functions
 
-All major RDBMS are supporting window functions and since 2018 MySQL 8.0 also have it!
+All major RDBMS supports window functions and since 2018 MySQL 8.0 also have it!
 
 ## Use interval for dates
 
@@ -78,53 +78,26 @@ Instead of dealing with 100_000_000 rows, now you can just work only 2 millions.
 
 You can update the summary table using SQL triggers, invoke code periodically in application to update it or calculate it in real-time in application code when a new transaction is inserted.
 
-
 > Checkout also star schema and snowflake schema. It more advanced structure which is used to keep multi-dimensional data in SQL. Above example is just a easy to introduce solution. :) 
-
-## Use cascades
-
-Have you ever tried to delete some row from table but due to consistency check you needed to delete some other row before that? Instead of creating that weird 
-chain of delete queries from every table which must be in correct order (to not break the database consistency) just use cascades. It won't hurt you, unless you know how to use them.
-
-## Sort by id
-
-Correct me if I'm wrong, but I think most of the databases are returning data ordered by a primary index. This statement also works for MongoDB. We can use that fact
-to quickly return data in correct order. If you want to paginate transactions by creation date which we usually do use `order by transaction_id desc`. The newest transaction will
-go first, and database won't even need to touch an index of `created` column.
-
-## Foreign key doesn't need to be numeric
-
-Here is simplified model of translation data which may be found in many online systems who are still keeping translations internally instead of using [SimpleLocalize™](https://simplelocalize.io)
-
-translation_id | translation_key | translation | language_key
---- | --- | --- | ---
-1 | `HELLO_WORLD` | Hello world! | `en_US`
-2 | `CREATE_ACCOUNT` | Create account | `en_US`
-3 | `HELLO_WORLD` | Witaj świecie! | `pl_PL`
-4 | `CREATE_ACCOUNT` | Stwórz konto | `pl_PL`
-
-If I want to search for translations for specific language instead of joining a `languages` table on numeric ID, I can directly query for translations with given `language_key` which is indexed.
-
-> Beware of possible performance issues using `varchar` as foreign keys. Read more: https://dba.stackexchange.com/questions/15897/mysql-int-vs-varchar-as-primary-key-innodb-storage-engine
 
 ## Use different technology
 
-There are many services out there which can help in optimization. Instead of using you SQL database for every search, you can try out combine 2 technolgies.
+There are many services out there which can help in optimization. Instead of using you SQL database for every search, you can try out combine 2 technologies.
 
 ### ElasticSearch
 
-Use ElasticSearch for better full text searches. Using `like` keyword in SQL databases is not that efficient as in sepciaized tools for that job. 
+Use ElasticSearch for better full text searches. Using `like` keyword in SQL databases is not that efficient as in specialized tools for that job. 
 
 ### Apache Lucene
 
 Instead, using whole ElasticSearch service you can just take advantage from Lucene indexes (which are used in ElasticSearch).
 For Java and Hibernate you can use [Hibernate Search](http://hibernate.org/search/) extension.
 
-### NoSQL
-
-Use NoSQL database like MongoDB or DynamoDB to keep large JSON files. MySQL have special [JSON type](https://dev.mysql.com/doc/refman/8.0/en/json.html) 
-to find and extract data in JSON, but it might me not the best way to do it. It's up to you how many times you will deal with the JSONs and how good the JSON support is in your library.
-
+### Some other topics to read about
+- `explain` keyword in SQL
+- Differences between SQL engines 
+- Common table expressions
+- 
 ### Resources
 - [https://stackoverflow.com/questions/54330657/need-some-guidance-to-optimize-reporting-in-mysql](https://stackoverflow.com/questions/54330657/need-some-guidance-to-optimize-reporting-in-mysql)
 - [http://mysql.rjweb.org/doc.php/summarytables](http://mysql.rjweb.org/doc.php/summarytables)
@@ -132,7 +105,3 @@ to find and extract data in JSON, but it might me not the best way to do it. It'
 - [https://dev.mysql.com/doc/](https://dev.mysql.com/doc/)
 - [https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing](https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing)
 
-### I will describe later
-- Using explain
-- Table with engine differences 
-- Common table expressions

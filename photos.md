@@ -6,15 +6,7 @@ permalink: /photos/
 
 # My photo library
 
-This is my photo feed where I post my favourites. 
-It’s easier to keep the best photos here than in iCloud library. 
-I use Nikon D60 with 50mm Nikkor lens and 18-55mm lens (default one), 
-but many of my photos I also took with iPhone 6s. Feel free to use them, 
-and if it is possible please add a link to my website. Thanks!
-
-![my-setup](/assets/photos/setup.jpg)
-
----
+Here you can find my some of my favourite photos. 
 
 ## My favourites
 
@@ -108,8 +100,3 @@ Pompei was buried under 5m of volcanic ash in the eruption of Mount Vesuvius in 
 
 All roads lead to rome. 🗾 [Rome, Italy](https://www.google.com/maps/place/Rzym,+Włochy/@41.9097306,12.2558141,10z/data=!3m1!4b1!4m5!3m4!1s0x132f6196f9928ebb:0xb90f770693656e38!8m2!3d41.9027835!4d12.4963655)
 
----
-
-
-
-**More photos soon, I need more to find them in the iCloud library... In meanwhile you can follow me on Instagram. 😉**
