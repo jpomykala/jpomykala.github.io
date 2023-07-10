@@ -10,7 +10,7 @@ layout: home
 
 ### ![RenderForm](/assets/images/renderform-logo@512w.png){:class="round"} [RenderForm.io](https://RenderForm.io) 
 Graphics editor with superpowers. No-code automation tool for creating images and PDFs. It's a part-time project,
-it's a great project to just jump-in for a few hours to unwind after coding SimpleLocalize.
+it's a great way to just jump-in for a few hours to unwind after working on SimpleLocalize.
 
 <small class="text-muted">2021 - present</small>
 
