@@ -11,12 +11,12 @@ Here you can find my some of my favourite photos.
 ## My favourites
 
 ![Road somewhere in West Pomerania province](/assets/photos/west-pomeranian-field-drone.jpeg)
-Drone photo taken 500m above the ground, that little black dot is my car. Somewhere in West Pomerania province
+Drone photo taken 500m above the ground, that little black dot is my car. Somewhere in a West Pomerania province
 
 ---
 
 ![Motorcycle Spain](/assets/photos/castle-ksiaz-poland.jpeg)
-The largest castle in Silesia. [Castle Książ, Poland](https://placeflare.com/discover/place/89/zamek-ksiaz)
+The largest castle in Silesia. Castle Książ, Poland
 
 ---
 
@@ -26,12 +26,14 @@ We were wandering around the old town. [Alicante, Spain](https://www.google.com/
 ---
 
 ![Park Güell](/assets/photos/barcelona-park-guell.jpeg)
-Park Güell is the refelection of Gaudi's artitic plenitude, the park was built from 1900 to 1914. On the photo there is just a small amount of the park view, but I love this landscape. [Park Güell, Barcelona, Spain](https://www.google.com/maps/place/Park+Güell/@41.4144948,2.1505058,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a2ae52d441ab:0x899a0ba01aaace58!8m2!3d41.4144948!4d2.1526945)
+Park Güell is the reflection of Gaudi's artitic plenitude, the park was built from 1900 to 1914.
+On the photo there is just a small amount of the park view, but I love this landscape.
+[Park&nbsp;Güell,&nbsp;Barcelona,&nbsp;Spain](https://www.google.com/maps/place/Park+Güell/@41.4144948,2.1505058,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a2ae52d441ab:0x899a0ba01aaace58!8m2!3d41.4144948!4d2.1526945)
 
 ---
 
 ![Train Station](/assets/photos/train-station.jpeg)
-Next stop, Barcelona. 😊 [Train station, Alicante, Spain](https://www.google.com/maps?client=safari&rls=en&q=alicante+spain&oe=UTF-8&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjM1s298_jhAhXx-ioKHbEABaIQ_AUIDigB)
+"Next stop, Barcelona" [Train station, Alicante, Spain](https://www.google.com/maps?client=safari&rls=en&q=alicante+spain&oe=UTF-8&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjM1s298_jhAhXx-ioKHbEABaIQ_AUIDigB)
 
 ---
 
@@ -54,7 +56,7 @@ My hometown. [Szczecin, Poland](https://www.google.com/maps/place/Szczecin/@53.4
 
 ![Szczecin Sextant](/assets/photos/szczecin-odra.jpg)
 
-Looks like Vice City theme. 😀 [Szczecin, Poland](https://www.google.com/maps/place/Szczecin/@53.4293685,14.344447,10z/data=!3m1!4b1!4m5!3m4!1s0x47aa093800d3a759:0xa95adc4e5f8ac4f3!8m2!3d53.4285438!4d14.5528116)
+"Vice City theme" [Szczecin, Poland](https://www.google.com/maps/place/Szczecin/@53.4293685,14.344447,10z/data=!3m1!4b1!4m5!3m4!1s0x47aa093800d3a759:0xa95adc4e5f8ac4f3!8m2!3d53.4285438!4d14.5528116)
 
 ---
 
@@ -72,7 +74,7 @@ Me on Trolltunga. [Trolltunga, Norway](https://www.google.com/maps?client=safari
 
 ![Zamek Chojnik](/assets/photos/zamek-kinga-placeflare.jpg)
 
-We were visiting castles near Wrocław, this is the view from one of them. [Chojnik Castle, Poland, see on PlaceFlare](https://placeflare.com/place/107/zamek-chojnik)
+We were visiting castles near Wrocław, this is the view from one of them. Chojnik Castle
 
 --- 
 
@@ -86,7 +88,7 @@ Wang Temple bought by King Frederick William IV and transferred from Vang (Norwa
 
 ![L'Oceanogràfic](/assets/photos/valencia-oceanografic.jpeg)
 
-L'oceanogràfic opened in 2003, it's the largest complex of this kind in Europe, [Valencia, Spain, see on PlaceFlare](https://placeflare.com/place/7307/l-oceanografic)
+L'oceanogràfic opened in 2003, it's the largest complex of this kind in Europe, Valencia, Spain
 
 --- 
 
