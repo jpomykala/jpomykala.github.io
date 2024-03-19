@@ -44,7 +44,7 @@ li {
     font-weight: 700;
   }
 
-  .text-header{
+  .text-header {
     display: flex;
     flex-direction: column;
   }
@@ -92,6 +92,19 @@ small {
 
 strong {
   font-weight: 600;
+}
+
+.renderform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .content {
+    min-width: 1200px;
+    max-width: 1200px;
+  }
 }
 
 img {
@@ -216,7 +229,7 @@ article {
   }
 
   h4 {
-    font-size: 1.1rem  !important;
+    font-size: 1.1rem !important;
     margin-top: 2.6rem !important;
     margin-bottom: 0.6rem !important;
   }
@@ -230,6 +243,7 @@ article {
     padding-bottom: 20px;
     padding-right: 32px;
     background-color: #F6FAFE;
+
     p {
       color: rgb(86, 106, 129);
       letter-spacing: normal;
