@@ -173,7 +173,7 @@ Look at line `ATTRS{name}=="Microsoft Xbox Controller"` is what we are looking f
 
 Now, we are going to create a rule that will execute a script whenever the controller is connected or disconnected. Create a file for a new rules:
 ```
-sudo vim /etc/udev/rules.d/99-xbox-controller-remove.rules
+sudo vim /etc/udev/rules.d/99-xbox-controller.rules
 ```
 
 and add the following content:
