@@ -4,8 +4,6 @@ title: "🔌 Spring Boot and WebSockets"
 tags: [ 'java', 'spring boot', 'frontend', 'websocket' ]
 ---
 
-## Introduction
-
 [Recently, I asked Spring Boot developers on Reddit](https://www.reddit.com/r/SpringBoot/comments/1dzpfa7/comment/lcheh4w/)
 if anyone uses plain WebSockets in their applications without [STOMP](https://stomp-js.github.io)
 and/or [SockJS](https://github.com/sockjs/sockjs-client). I was curious about the answers
@@ -279,7 +277,7 @@ Now, that we have configured WebSockets in our Spring Boot 3 application, let's 
 from the client. This part is a most satisfying one, as we will use a native APIs provided by the browser to connect to
 the WebSocket.
 
-```typescript jsx
+```typescript
 useEffect(() => {
   let wss: WebSocket;
 
@@ -320,7 +318,7 @@ messages received from the server.
 Once you connect to the WebSocket, you can also periodically check if the connection is closed and reconnect if
 necessary, e.g.:
 
-```typescript jsx
+```typescript
 setInterval(() => {
   if (wss?.readyState === WebSocket.CLOSED) {
     console.log("Connection closed, reconnecting...");
