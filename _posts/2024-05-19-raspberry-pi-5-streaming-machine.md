@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "🕹️ Raspberry Pi 5 into Streaming Gaming Console"
+title: "🕹️ Raspberry Pi 5 - Streaming Gaming Console"
 tags: ['gaming']
 ---
 

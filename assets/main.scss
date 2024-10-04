@@ -3,11 +3,43 @@
 
 @import "minima";
 
-* {
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.home {
+  position: relative;
 }
 
+.site-header {
+  background-color: #fff;
+  border-top: none;
+  z-index: 1000;
+}
+
+.site-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.page-content {
+  padding: 24px 0;
+}
+
+.page-link {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(0, 127, 250) !important;
+}
+
+.pattern {
+  z-index: 100;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' fill='none' stroke='rgb(0 127 250 / 0.25)' viewBox='0 0 32 32'%3E%3Cpath d='M0 .5h31.5V32'/%3E%3C/svg%3E");
+  mask-image: radial-gradient(ellipse at center, transparent 25%, #000000);
+}
 
 %text {
   color: rgb(48, 58, 69);
@@ -16,9 +48,6 @@
   line-height: 1.5;
 }
 
-a {
-  color: #007FFA;
-}
 
 p {
   @extend %text;
@@ -33,65 +62,41 @@ li {
   @extend %text;
 }
 
+.post-navigation {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
 .intro-header {
   display: flex;
   align-items: center;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
+  margin-top: 48px;
 
   h1 {
-    margin: 0;
     padding: 0;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 8px;
+    letter-spacing: -0.02em;
   }
-
-  .text-header {
-    display: flex;
-    flex-direction: column;
-  }
-
 }
 
 .mt-0 {
   margin-top: 0 !important;
 }
 
-.avatar-lg {
+.avatar {
   margin-right: 24px;
-  width: 96px;
-  height: 96px;
+  width: 128px;
+  height: 128px;
   border-radius: 50%;
-}
-
-.profiles {
-  margin-top: 16px;
-  margin-bottom: 16px;
-
-  a {
-    margin-right: 8px;
-    margin-left: 8px;
-  }
-
-  i {
-    font-size: 24px;
-    text-decoration: none;
-  }
 }
 
 .text-muted {
   color: #7c7c7c;
-}
-
-small {
-  font-size: 14px;
-}
-
-.made-with {
-  margin-top: 8px;
-  text-align: center;
-}
-
-strong {
-  font-weight: 600;
 }
 
 .renderform {
@@ -107,40 +112,37 @@ strong {
   }
 }
 
-img {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.post-content {
-  img {
-    display: block;
-    max-height: 70vh;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-
 .post-list {
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 6px !important;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  p {
+    font-size: 15px;
+    color: #7c7c7c;
+    line-height: 1.6;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    a {
+      color: #7c7c7c;
+    }
+  }
+
   li {
+
     margin-bottom: 64px;
     margin-top: 64px;
   }
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid rgba(0, 0, 0, .1);
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
-}
-
-.avatar {
-  max-width: 100px;
-  max-height: 100px;
-  border-radius: 50%;
 }
 
 .round {
@@ -157,6 +159,24 @@ hr {
     display: inline;
   }
 }
+
+.photo-library {
+  img {
+    border-radius: 3px;
+    margin-bottom: 12px;
+  }
+
+  hr {
+    border-bottom: 0;
+    border-top: 1px solid rgb(232, 232, 232, 0.5);
+    border-left: 0;
+    border-right: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+}
+
 
 h1 {
   font-weight: 600;
@@ -192,6 +212,11 @@ h4 {
 
 h5 {
   font-size: 1.6rem;
+}
+
+.mx-1 {
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 article {
@@ -235,6 +260,7 @@ article {
   }
 
   p {
+    line-height: 1.8;
     margin-bottom: 1.5rem !important;
   }
 
@@ -250,31 +276,16 @@ article {
       margin-bottom: 0 !important;
     }
   }
+
+  img {
+    border-radius: 6px;
+  }
 }
 
 footer {
+  z-index: 1000;
   background: #f5fbff !important;
-  opacity: 1;
   text-align: center;
-  line-height: 2;
-  margin-top: 5rem;
-  color: #889;
-  font-size: 16px;
-  padding: 5rem 0;
-  background: rgba(120, 120, 120, .05);
-  border-top: 1px solid rgba(120, 120, 120, .08);
-  box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, .05);
-
-
-  p {
-    font-size: 0.8rem;
-  }
-
-  .list-inline {
-    margin: 0;
-  }
-
-  li {
-    margin: 0 10px;
-  }
+  padding: 48px 0;
+  border-top: 1px solid #e8e8e8;
 }

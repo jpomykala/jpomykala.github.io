@@ -14,8 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jakub Pomykała
-description: Creation over consumption
-logo: "/assets/me-2021.jpeg"
+logo: "/assets/me-2023.jpeg"
 baseurl: ""
 url: "https://jpomykala.com"
 twitter:

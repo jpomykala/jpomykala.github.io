@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home">
+<div>
   {%- if page.title -%}
   {%- endif -%}
 
@@ -13,26 +13,17 @@ layout: default
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">
-        {{ post.date | date: date_format }}
-        <span class="post-meta mx-1">•</span>
-        {% for tag in post.tags %}
-
-        <span class="post-meta">{{ tag }}</span>
-      {%- if forloop.last == false %}, {% endif -%}
-      {% endfor %}
-      </span>
-      <h2 class="mt-0">
+      <h2>
         <a href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
       </h2>
-      <div class="use-dashed-links">{%- if site.show_excerpts -%}
+      {%- if site.show_excerpts -%}
+      <p>
         {{ post.excerpt }}
-        {%- endif -%}
-      </div>
+      </p>
+      {%- endif -%}
     </li>
-    <hr/>
     {%- endfor -%}
   </ul>
 

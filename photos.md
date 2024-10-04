@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: photos
 title: Photos
 permalink: /photos/
 ---
 
-# My photo library
+# Photo library
 
-Here you can find my some of my favourite photos. 
+Here you can find my some of my favourite photos, taken during my trips.
 
-## My favourites
+--- 
 
 ![Road somewhere in West Pomerania province](/assets/photos/west-pomeranian-field-drone.jpeg)
 Drone photo taken 500m above the ground, that little black dot is my car. Somewhere in a West Pomerania province
@@ -101,4 +101,3 @@ Pompei was buried under 5m of volcanic ash in the eruption of Mount Vesuvius in 
 ![Rome Italy](/assets/photos/rome.jpg)
 
 All roads lead to rome. 🗾 [Rome, Italy](https://www.google.com/maps/place/Rzym,+Włochy/@41.9097306,12.2558141,10z/data=!3m1!4b1!4m5!3m4!1s0x132f6196f9928ebb:0xb90f770693656e38!8m2!3d41.9027835!4d12.4963655)
-

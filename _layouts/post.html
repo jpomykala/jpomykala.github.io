@@ -4,6 +4,11 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+
+    <div class="post-navigation">
+      <a href="/posts/">← Back to posts</a>
+      <a href="{{ "/feed.xml" | relative_url }}" class="feed-subscribe">RSS Feed</a>
+    </div>
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -24,33 +29,18 @@ layout: default
         <span class="meta-entry">{{ tag }}</span>
       {%- if forloop.last == false %}, {% endif -%}
       {% endfor %}
-
-      <span class="meta-entry mx-1">•</span>
-      <span>
-        <a target="_blank" href="https://github.com/jpomykala/jpomykala.github.io/edit/master/_posts/{{ page.url | relative_url | remove_first: '/' | replace: '/', '-' }}.md" target="_blank">Improve my grammar</a>
-      </span>
-
     </p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
 
-  <div>
-    <h3>Related content</h3>
-    {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
-    {% for post in posts %}
-    <div>
-      <h5 class="mt-0">
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h5>
-    </div>
-
-    {% endfor %}
+  <div class="post-navigation">
+    <a href="/posts/">← Back to posts</a>
+    <a href="{{ "/feed.xml" | relative_url }}" class="feed-subscribe">RSS Feed</a>
   </div>
+
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

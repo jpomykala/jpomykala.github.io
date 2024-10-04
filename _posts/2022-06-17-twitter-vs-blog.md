@@ -8,7 +8,8 @@ What if we all switch to blogs instead of posting on Twitter? Did you notice how
 a mediocre joke, or this is only my impression? You can easily categorize Twitter profiles, did you notice that?
 At which point people will say, 'okay, this is not for me'. What alternatives do we have? 
 Why people are following Tim Cook on Twitter?
- 
+
+
 Don't people see that some profiles are clearly about advertising and active only to increase their traffic? 
 How many times you saw 'Tell me what is your favourite XYZ', and author doesn't even care about the response, they don't comment the replies. 
 I guess it's because the tweet has been scheduled and set up. 
@@ -17,7 +18,7 @@ Why is the number of followers so important? Why people are creating Twitter bot
 auto-generated texts to get more followers? 
 Does getting an audience who liked auto-generated text means that they will also like your tweets? 
 
-A perfect working use case for twitter is some celebrity or known person who really interacts with the people.
+A perfect working use case for Twitter is some celebrity or known person who really interacts with the people.
 But they are known from other achievements rather than getting 500k random followers, thanks to GPT-3 script.
 Communication like these wouldn't be possible.
 
